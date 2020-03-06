@@ -4,6 +4,8 @@
 
 A curated list of awesome imbalanced learning papers, codes, frameworks and libraries. 
 
+Inspired by [awesome-machine-learning](https://github.com/josephmisiti/awesome-machine-learning). Contributions are welcomed!
+
 > _Items marked with :accept: are personally recommended (important/high-quality papers or libraries)._
 
 # Table of Contents
@@ -116,7 +118,7 @@ A curated list of awesome imbalanced learning papers, codes, frameworks and libr
 - **Other forms of ensemble**
   - [EasyEnsemble & BalanceCascade](https://sci2s.ugr.es/keel/pdf/algorithm/articulo/2009-IEEE%20TSMCpartB%20Exploratory%20Undersampling%20for%20Class%20Imbalance%20Learning.pdf) [[Code (EasyEnsemble)](https://github.com/scikit-learn-contrib/imbalanced-learn/blob/master/imblearn/ensemble/_easy_ensemble.py#L30)] [[Code (BalanceCascade)](https://github.com/ZhiningLiu1998/self-paced-ensemble/blob/master/canonical_ensemble.py#L709)] (2008, 1300+ citations) - Parallel ensemble training with RUS (EasyEnsemble) / Cascade ensemble training with RUS while iteratively drops well-classified examples (BalanceCascade) 
     > :accept: simple but effective solution.
-  - [Self-paced Ensemble](https://arxiv.org/pdf/1909.03500.pdf) [[Code](https://github.com/ZhiningLiu1998/self-paced-ensemble/blob/master/self_paced_ensemble.py#L14)] (ICDE 2020) - Training Effective Ensemble on Imbalanced Data by Self-paced Harmonizing Classification Hardness 
+  - [Self-paced Ensemble](https://arxiv.org/pdf/1909.03500.pdf) [[Code](https://github.com/ZhiningLiu1998/self-paced-ensemble)] (ICDE 2020) - Training Effective Ensemble on Imbalanced Data by Self-paced Harmonizing Classification Hardness 
     > :accept: high performance & computational efficiency.
 
 ## Deep Learning
