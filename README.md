@@ -20,10 +20,10 @@ Inspired by [awesome-machine-learning](https://github.com/josephmisiti/awesome-m
     - [Julia](#julia)
 - [Papers](#papers)
   - [Surveys](#surveys)
+  - [Deep Learning](#deep-learning)
   - [Data resampling](#data-resampling)
   - [Cost-sensitive Learning](#cost-sensitive-learning)
   - [Ensemble Learning](#ensemble-learning)
-  - [Deep Learning](#deep-learning)
   - [Anomaly Detection](#anomaly-detection)
 - [Other Resources](#other-resources)
 
@@ -59,6 +59,41 @@ Inspired by [awesome-machine-learning](https://github.com/josephmisiti/awesome-m
 - [Learning from imbalanced data: open challenges and future directions](https://www.researchgate.net/publication/301596547_Learning_from_imbalanced_data_Open_challenges_and_future_directions) (2016, 400+ citations) - This paper concentrates on discussing the open issues and challenges in imbalanced learning, such as extreme class imbalance, dealing imbalance in online/stream learning, multi-class imbalanced learning, and semi/un-supervised imbalanced learning.
 - [Learning from class-imbalanced data: Review of methods and applications](https://www.researchgate.net/publication/311977198_Learning_from_class-imbalanced_data_Review_of_methods_and_applications) (2017, 400+ citations) - A recent exhaustive survey of imbalanced learning methods and applications, a total of 527 papers were included in this study. It provides several detailed taxonomies of existing methods and also the recent trend of this research area.
     > :accept: a systematic survey with detailed taxonomies of existing methods.
+
+## Deep Learning
+
+- **Surveys**
+  - [A systematic study of the class imbalance problem in convolutional neural networks](https://arxiv.org/pdf/1710.05381.pdf) (2018, 330+ citations)
+  - [Survey on deep learning with class imbalance](https://www.researchgate.net/publication/332165523_Survey_on_deep_learning_with_class_imbalance) (2019, 50+ citations)
+    > :accept: a recent comprehensive survey of the class imbalance problem in deep learning.
+
+- **Hard example mining**
+  - [Training region-based object detectors with online hard example mining](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Shrivastava_Training_Region-Based_Object_CVPR_2016_paper.pdf) (CVPR 2016, 840+ citations) - In the later phase of NN training, only do gradient back-propagation for "hard examples" (i.e., with large loss value)
+
+- **Loss function engineering**
+  - [Training deep neural networks on imbalanced data sets](https://www.researchgate.net/publication/309778930_Training_deep_neural_networks_on_imbalanced_data_sets) (IJCNN 2016, 110+ citations) - Mean (square) false error that can equally capture classification errors from both the majority class and the minority class.
+  - [Focal loss for dense object detection](http://10.187.70.31/openaccess.thecvf.com/content_ICCV_2017/papers/Lin_Focal_Loss_for_ICCV_2017_paper.pdf) [[Code (Unofficial)](https://github.com/clcarwin/focal_loss_pytorch)] (ICCV 2017, 2600+ citations) - A uniform loss function that focuses training on a sparse set of hard examples to prevents the vast number of easy negatives from overwhelming the detector during training. 
+    > :accept: elegant solution, high influence.
+  - [Deep imbalanced attribute classification using visual attention aggregation](http://10.187.70.39/openaccess.thecvf.com/content_ECCV_2018/papers/Nikolaos_Sarafianos_Deep_Imbalanced_Attribute_ECCV_2018_paper.pdf) [[Code](https://github.com/cvcode18/imbalanced_learning)] (ECCV 2018, 30+ citation)
+  - [Imbalanced deep learning by minority class incremental rectification](https://arxiv.org/pdf/1804.10851.pdf) (TPAMI 2018, 60+ citations) - Class Rectification Loss for minimizing the dominant effect of majority classes by discovering sparsely sampled boundaries of minority classes in an iterative batch-wise learning process.
+  - [Learning Imbalanced Datasets with Label-Distribution-Aware Margin Loss](https://papers.nips.cc/paper/8435-learning-imbalanced-datasets-with-label-distribution-aware-margin-loss.pdf) [[Code](https://github.com/kaidic/LDAM-DRW)] (NIPS 2019, 10+ citations) - A theoretically-principled label-distribution-aware margin (LDAM) loss motivated by minimizing a margin-based generalization bound.
+  - [Learning Data Manipulation for Augmentation and Weighting](https://www.cs.cmu.edu/~zhitingh/data/neurips19_data_manip_preprint.pdf) [[Code](https://github.com/tanyuqian/learning-data-manipulation)] (NIPS 2019)
+  - [Gradient harmonized single-stage detector](https://arxiv.org/pdf/1811.05181.pdf) [[Code](https://github.com/libuyu/GHM_Detection)] (AAAI 2019, 40+ citations) - Compared to Focal Loss, which only down-weights "easy" negative examples, GHM also down-weights "very hard" examples as they are likely to be outliers. 
+    > :accept: interesting idea: harmonizing the contribution of examples on the basis of their gradient distribution.
+
+- **Meta-learning**
+  - [Learning to model the tail](http://10.187.70.33/papers.nips.cc/paper/7278-learning-to-model-the-tail.pdf) (NIPS 2017, 70+ citations) - Transfer meta-knowledge from the data-rich classes in the head of the distribution to the data-poor classes in the tail.
+  - [Learning to reweight examples for robust deep learning](http://10.187.70.24/proceedings.mlr.press/v80/ren18a/ren18a.pdf) [[Code](https://github.com/uber-research/learning-to-reweight-examples)] (ICML 2018, 150+ citations) - Implicitly learn a weight function to reweight the samples in gradient updates of DNN.
+    > :accept: representative work to solve the class imbalance problem through meta-learning.
+  - [Meta-weight-net: Learning an explicit mapping for sample weighting](https://papers.nips.cc/paper/8467-meta-weight-net-learning-an-explicit-mapping-for-sample-weighting.pdf) [[Code](https://github.com/xjtushujun/meta-weight-net)] (NIPS 2019) - Explicitly learn a weight function (with an MLP as the function approximator) to reweight the samples in gradient updates of DNN.
+  - [Learning to Balance: Bayesian Meta-Learning for Imbalanced and Out-of-distribution Tasks](https://openreview.net/attachment?id=rkeZIJBYvr&name=original_pdf) [[Code](https://github.com/haebeom-lee/l2b)] (ICLR 2020)
+
+- **Representation Learning**
+  - [Learning deep representation for imbalanced classification](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Huang_Learning_Deep_Representation_CVPR_2016_paper.pdf) (CVPR 2016, 220+ citations)
+  - [Supervised Class Distribution Learning for GANs-Based Imbalanced Classification](https://ieeexplore.ieee.xilesou.top/abstract/document/8970900) (ICDM 2019)
+
+- **Two-phase training**
+  - [Brain tumor segmentation with deep neural networks](https://arxiv.org/pdf/1505.03540.pdf) (2017, 1200+ citations) - Pre-training on balanced dataset, fine-tuning the last output layer before softmax on the original, imbalanced data.
 
 ## Data resampling
 
@@ -120,41 +155,6 @@ Inspired by [awesome-machine-learning](https://github.com/josephmisiti/awesome-m
     > :accept: simple but effective solution.
   - [Self-paced Ensemble](https://arxiv.org/pdf/1909.03500.pdf) [[Code](https://github.com/ZhiningLiu1998/self-paced-ensemble)] (ICDE 2020) - Training Effective Ensemble on Imbalanced Data by Self-paced Harmonizing Classification Hardness 
     > :accept: high performance & computational efficiency.
-
-## Deep Learning
-
-- **Surveys**
-  - [A systematic study of the class imbalance problem in convolutional neural networks](https://arxiv.org/pdf/1710.05381.pdf) (2018, 330+ citations)
-  - [Survey on deep learning with class imbalance](https://www.researchgate.net/publication/332165523_Survey_on_deep_learning_with_class_imbalance) (2019, 50+ citations)
-    > :accept: a recent comprehensive survey of the class imbalance problem in deep learning.
-
-- **Hard example mining**
-  - [Training region-based object detectors with online hard example mining](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Shrivastava_Training_Region-Based_Object_CVPR_2016_paper.pdf) (CVPR 2016, 840+ citations) - In the later phase of NN training, only do gradient back-propagation for "hard examples" (i.e., with large loss value)
-
-- **Loss function engineering**
-  - [Training deep neural networks on imbalanced data sets](https://www.researchgate.net/publication/309778930_Training_deep_neural_networks_on_imbalanced_data_sets) (IJCNN 2016, 110+ citations) - Mean (square) false error that can equally capture classification errors from both the majority class and the minority class.
-  - [Focal loss for dense object detection](http://10.187.70.31/openaccess.thecvf.com/content_ICCV_2017/papers/Lin_Focal_Loss_for_ICCV_2017_paper.pdf) [[Code (Unofficial)](https://github.com/clcarwin/focal_loss_pytorch)] (ICCV 2017, 2600+ citations) - A uniform loss function that focuses training on a sparse set of hard examples to prevents the vast number of easy negatives from overwhelming the detector during training. 
-    > :accept: elegant solution, high influence.
-  - [Deep imbalanced attribute classification using visual attention aggregation](http://10.187.70.39/openaccess.thecvf.com/content_ECCV_2018/papers/Nikolaos_Sarafianos_Deep_Imbalanced_Attribute_ECCV_2018_paper.pdf) [[Code](https://github.com/cvcode18/imbalanced_learning)] (ECCV 2018, 30+ citation)
-  - [Imbalanced deep learning by minority class incremental rectification](https://arxiv.org/pdf/1804.10851.pdf) (TPAMI 2018, 60+ citations) - Class Rectification Loss for minimizing the dominant effect of majority classes by discovering sparsely sampled boundaries of minority classes in an iterative batch-wise learning process.
-  - [Learning Imbalanced Datasets with Label-Distribution-Aware Margin Loss](https://papers.nips.cc/paper/8435-learning-imbalanced-datasets-with-label-distribution-aware-margin-loss.pdf) [[Code](https://github.com/kaidic/LDAM-DRW)] (NIPS 2019, 10+ citations) - A theoretically-principled label-distribution-aware margin (LDAM) loss motivated by
-minimizing a margin-based generalization bound.
-  - [Gradient harmonized single-stage detector](https://arxiv.org/pdf/1811.05181.pdf) [[Code](https://github.com/libuyu/GHM_Detection)] (AAAI 2019, 40+ citations) - Compared to Focal Loss, which only down-weights "easy" negative examples, GHM also down-weights "very hard" examples as they are likely to be outliers. 
-    > :accept: interesting idea: harmonizing the contribution of examples on the basis of their gradient distribution.
-
-- **Meta-learning**
-  - [Learning to model the tail](http://10.187.70.33/papers.nips.cc/paper/7278-learning-to-model-the-tail.pdf) (NIPS 2017, 70+ citations) - Transfer meta-knowledge from the data-rich classes in the head of the distribution to the data-poor classes in the tail.
-  - [Learning to reweight examples for robust deep learning](http://10.187.70.24/proceedings.mlr.press/v80/ren18a/ren18a.pdf) [[Code](https://github.com/uber-research/learning-to-reweight-examples)] (ICML 2018, 150+ citations) - Implicitly learn a weight function to reweight the samples in gradient updates of DNN.
-    > :accept: representative work to solve the class imbalance problem through meta-learning.
-  - [Meta-weight-net: Learning an explicit mapping for sample weighting](https://papers.nips.cc/paper/8467-meta-weight-net-learning-an-explicit-mapping-for-sample-weighting.pdf) [[Code](https://github.com/xjtushujun/meta-weight-net)] (NIPS 2019) - Explicitly learn a weight function (with an MLP as the function approximator) to reweight the samples in gradient updates of DNN.
-  - [Learning to Balance: Bayesian Meta-Learning for Imbalanced and Out-of-distribution Tasks](https://openreview.net/attachment?id=rkeZIJBYvr&name=original_pdf) [[Code](https://github.com/haebeom-lee/l2b)] (ICLR 2020)
-
-- **Representation Learning**
-  - [Learning deep representation for imbalanced classification](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Huang_Learning_Deep_Representation_CVPR_2016_paper.pdf) (CVPR 2016, 220+ citations)
-  - [Supervised Class Distribution Learning for GANs-Based Imbalanced Classification](https://ieeexplore.ieee.xilesou.top/abstract/document/8970900) (ICDM 2019)
-
-- **Two-phase training**
-  - [Brain tumor segmentation with deep neural networks](https://arxiv.org/pdf/1505.03540.pdf) (2017, 1200+ citations) - Pre-training on balanced dataset, fine-tuning the last output layer before softmax on the original, imbalanced data.
 
 ## Anomaly Detection
 
