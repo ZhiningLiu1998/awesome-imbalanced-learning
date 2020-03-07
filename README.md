@@ -77,7 +77,6 @@ Inspired by [awesome-machine-learning](https://github.com/josephmisiti/awesome-m
   - [Deep imbalanced attribute classification using visual attention aggregation](http://10.187.70.39/openaccess.thecvf.com/content_ECCV_2018/papers/Nikolaos_Sarafianos_Deep_Imbalanced_Attribute_ECCV_2018_paper.pdf) [[Code](https://github.com/cvcode18/imbalanced_learning)] (ECCV 2018, 30+ citation)
   - [Imbalanced deep learning by minority class incremental rectification](https://arxiv.org/pdf/1804.10851.pdf) (TPAMI 2018, 60+ citations) - Class Rectification Loss for minimizing the dominant effect of majority classes by discovering sparsely sampled boundaries of minority classes in an iterative batch-wise learning process.
   - [Learning Imbalanced Datasets with Label-Distribution-Aware Margin Loss](https://papers.nips.cc/paper/8435-learning-imbalanced-datasets-with-label-distribution-aware-margin-loss.pdf) [[Code](https://github.com/kaidic/LDAM-DRW)] (NIPS 2019, 10+ citations) - A theoretically-principled label-distribution-aware margin (LDAM) loss motivated by minimizing a margin-based generalization bound.
-  - [Learning Data Manipulation for Augmentation and Weighting](https://www.cs.cmu.edu/~zhitingh/data/neurips19_data_manip_preprint.pdf) [[Code](https://github.com/tanyuqian/learning-data-manipulation)] (NIPS 2019)
   - [Gradient harmonized single-stage detector](https://arxiv.org/pdf/1811.05181.pdf) [[Code](https://github.com/libuyu/GHM_Detection)] (AAAI 2019, 40+ citations) - Compared to Focal Loss, which only down-weights "easy" negative examples, GHM also down-weights "very hard" examples as they are likely to be outliers. 
     > :accept: interesting idea: harmonizing the contribution of examples on the basis of their gradient distribution.
 
@@ -86,6 +85,7 @@ Inspired by [awesome-machine-learning](https://github.com/josephmisiti/awesome-m
   - [Learning to reweight examples for robust deep learning](http://10.187.70.24/proceedings.mlr.press/v80/ren18a/ren18a.pdf) [[Code](https://github.com/uber-research/learning-to-reweight-examples)] (ICML 2018, 150+ citations) - Implicitly learn a weight function to reweight the samples in gradient updates of DNN.
     > :accept: representative work to solve the class imbalance problem through meta-learning.
   - [Meta-weight-net: Learning an explicit mapping for sample weighting](https://papers.nips.cc/paper/8467-meta-weight-net-learning-an-explicit-mapping-for-sample-weighting.pdf) [[Code](https://github.com/xjtushujun/meta-weight-net)] (NIPS 2019) - Explicitly learn a weight function (with an MLP as the function approximator) to reweight the samples in gradient updates of DNN.
+  - [Learning Data Manipulation for Augmentation and Weighting](https://www.cs.cmu.edu/~zhitingh/data/neurips19_data_manip_preprint.pdf) [[Code](https://github.com/tanyuqian/learning-data-manipulation)] (NIPS 2019)
   - [Learning to Balance: Bayesian Meta-Learning for Imbalanced and Out-of-distribution Tasks](https://openreview.net/attachment?id=rkeZIJBYvr&name=original_pdf) [[Code](https://github.com/haebeom-lee/l2b)] (ICLR 2020)
 
 - **Representation Learning**
