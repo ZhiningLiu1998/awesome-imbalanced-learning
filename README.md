@@ -4,6 +4,8 @@
 
 A curated list of awesome imbalanced learning papers, codes, frameworks and libraries. 
 
+**Class-imbalance** (also known as the long-tail problem) is the fact that the classes are not represented equally in a classification problem, which is quite common in practice. For instance, fraud detection, prediction of rare adverse drug reactions and prediction gene families. Failure to account for the class imbalance often causes inaccurate and decreased predictive performance of many classification algorithms. Imbalanced learning aims to tackle the class imbalance problem to learn an unbiased model from imbalanced data.
+
 Inspired by [awesome-machine-learning](https://github.com/josephmisiti/awesome-machine-learning). Contributions are welcomed!
 
 > _Items marked with :accept: are personally recommended (important/high-quality papers or libraries)._
@@ -81,6 +83,7 @@ Inspired by [awesome-machine-learning](https://github.com/josephmisiti/awesome-m
   - [Learning Imbalanced Datasets with Label-Distribution-Aware Margin Loss](https://papers.nips.cc/paper/8435-learning-imbalanced-datasets-with-label-distribution-aware-margin-loss.pdf) [[Code](https://github.com/kaidic/LDAM-DRW)] (NIPS 2019, 10+ citations) - A theoretically-principled label-distribution-aware margin (LDAM) loss motivated by minimizing a margin-based generalization bound.
   - [Gradient harmonized single-stage detector](https://arxiv.org/pdf/1811.05181.pdf) [[Code](https://github.com/libuyu/GHM_Detection)] (AAAI 2019, 40+ citations) - Compared to Focal Loss, which only down-weights "easy" negative examples, GHM also down-weights "very hard" examples as they are likely to be outliers. 
     > :accept: interesting idea: harmonizing the contribution of examples on the basis of their gradient distribution.
+  - [Class-Balanced Loss Based on Effective Number of Samples](http://10.187.70.34/openaccess.thecvf.com/content_CVPR_2019/papers/Cui_Class-Balanced_Loss_Based_on_Effective_Number_of_Samples_CVPR_2019_paper.pdf) (CVPR 2019, 70+ citations) - a simple and generic class-reweighting mechanism based on Effective Number of Samples.
 
 - **Meta-learning**
   - [Learning to model the tail](http://10.187.70.33/papers.nips.cc/paper/7278-learning-to-model-the-tail.pdf) (NIPS 2017, 70+ citations) - Transfer meta-knowledge from the data-rich classes in the head of the distribution to the data-poor classes in the tail.
@@ -93,6 +96,10 @@ Inspired by [awesome-machine-learning](https://github.com/josephmisiti/awesome-m
 - **Representation Learning**
   - [Learning deep representation for imbalanced classification](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Huang_Learning_Deep_Representation_CVPR_2016_paper.pdf) (CVPR 2016, 220+ citations)
   - [Supervised Class Distribution Learning for GANs-Based Imbalanced Classification](https://ieeexplore.ieee.xilesou.top/abstract/document/8970900) (ICDM 2019)
+  - [Decoupling Representation and Classifier for Long-tailed Recognition](https://arxiv.org/pdf/1910.09217.pdf) (ICLR 2020)
+
+- **Curriculum learning**
+  - [Dynamic Curriculum Learning for Imbalanced Data Classification](http://10.187.70.15/openaccess.thecvf.com/content_ICCV_2019/papers/Wang_Dynamic_Curriculum_Learning_for_Imbalanced_Data_Classification_ICCV_2019_paper.pdf) (ICCV 2019)
 
 - **Two-phase training**
   - [Brain tumor segmentation with deep neural networks](https://arxiv.org/pdf/1505.03540.pdf) (2017, 1200+ citations) - Pre-training on balanced dataset, fine-tuning the last output layer before softmax on the original, imbalanced data.
@@ -156,7 +163,7 @@ Inspired by [awesome-machine-learning](https://github.com/josephmisiti/awesome-m
   - [EasyEnsemble & BalanceCascade](https://sci2s.ugr.es/keel/pdf/algorithm/articulo/2009-IEEE%20TSMCpartB%20Exploratory%20Undersampling%20for%20Class%20Imbalance%20Learning.pdf) [[Code (EasyEnsemble)](https://github.com/scikit-learn-contrib/imbalanced-learn/blob/master/imblearn/ensemble/_easy_ensemble.py#L30)] [[Code (BalanceCascade)](https://github.com/ZhiningLiu1998/self-paced-ensemble/blob/master/canonical_ensemble.py#L709)] (2008, 1300+ citations) - Parallel ensemble training with RUS (EasyEnsemble) / Cascade ensemble training with RUS while iteratively drops well-classified examples (BalanceCascade) 
     > :accept: simple but effective solution.
   - [Self-paced Ensemble](https://arxiv.org/pdf/1909.03500.pdf) [[Code](https://github.com/ZhiningLiu1998/self-paced-ensemble)] (ICDE 2020) - Training Effective Ensemble on Imbalanced Data by Self-paced Harmonizing Classification Hardness 
-    > :accept: high performance & computational efficiency.
+    > :accept: high performance & computational efficiency & widely applicable to different classifiers.
 
 ## Anomaly Detection
 
