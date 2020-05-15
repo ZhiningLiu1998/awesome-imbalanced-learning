@@ -104,6 +104,9 @@ Inspired by [awesome-machine-learning](https://github.com/josephmisiti/awesome-m
 - **Two-phase training**
   - [Brain tumor segmentation with deep neural networks](https://arxiv.org/pdf/1505.03540.pdf) (2017, 1200+ citations) - Pre-training on balanced dataset, fine-tuning the last output layer before softmax on the original, imbalanced data.
 
+- **Network Architecture**
+  - [BBN: Bilateral-Branch Network with Cumulative Learning for Long-Tailed Visual Recognition](https://arxiv.org/pdf/1912.02413.pdf) (CVPR 2020)
+
 ## Data resampling
 
 - **Over-sampling**
@@ -166,6 +169,8 @@ Inspired by [awesome-machine-learning](https://github.com/josephmisiti/awesome-m
     > :accept: high performance & computational efficiency & widely applicable to different classifiers.
 
 ## Anomaly Detection
+
+- [Anomaly Detection Learning Resources](https://github.com/yzhao062/anomaly-detection-resources) by [yzhao062](https://github.com/yzhao062) - Anomaly detection related books, papers, videos, and toolboxes.
 
 - Surveys
   - [Anomaly detection: A survey](http://10.187.70.15/cinslab.com/wp-content/uploads/2019/03/xiaorong.pdf) (2009, 7300+ citations)
