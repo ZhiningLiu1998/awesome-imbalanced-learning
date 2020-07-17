@@ -1,8 +1,12 @@
 # Awesome Imbalanced Learning
 
 [![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re)
+![Stars](https://img.shields.io/github/stars/ZhiningLiu1998/awesome-imbalanced-learning)
+![Forks](https://img.shields.io/github/forks/ZhiningLiu1998/awesome-imbalanced-learning)
+![Issues](https://img.shields.io/github/issues/ZhiningLiu1998/awesome-imbalanced-learning)
+![License](https://img.shields.io/github/license/ZhiningLiu1998/awesome-imbalanced-learning)
 
-A curated list of awesome imbalanced learning papers, codes, frameworks and libraries. 
+**A curated list of awesome imbalanced learning papers, codes, frameworks and libraries.**
 
 **Class-imbalance** (also known as the long-tail problem) is the fact that the classes are not represented equally in a classification problem, which is quite common in practice. For instance, fraud detection, prediction of rare adverse drug reactions and prediction gene families. Failure to account for the class imbalance often causes inaccurate and decreased predictive performance of many classification algorithms. Imbalanced learning aims to tackle the class imbalance problem to learn an unbiased model from imbalanced data.
 
@@ -37,9 +41,10 @@ Inspired by [awesome-machine-learning](https://github.com/josephmisiti/awesome-m
 ### Python
 - [**imbalanced-learn**](https://imbalanced-learn.org/stable/) [[Github](https://github.com/scikit-learn-contrib/imbalanced-learn)][[Documentation](https://imbalanced-learn.readthedocs.io/en/stable/)][[Paper](http://10.187.70.34/www.jmlr.org/papers/volume18/16-365/16-365.pdf)] - imbalanced-learn is a python package offering a number of ***re-sampling*** techniques commonly used in datasets showing strong between-class imbalance. It is compatible with [scikit-learn](https://scikit-learn.org/stable/) and is part of [scikit-learn-contrib](https://github.com/scikit-learn-contrib) projects. 
     > :accept: written in python, easy to use.
+- [**smote_variants**](https://smote-variants.readthedocs.io/en/latest/) [[Documentation](https://smote-variants.readthedocs.io/en/latest/)][[Github](https://github.com/analyticalmindsltd/smote_variants)] - A collection of 85 minority ***over-sampling*** techniques for imbalanced learning with multi-class oversampling and model selection features (All writen in Python, also support R and Julia).
 
 ### R
-- [**smote_variants**](https://smote-variants.readthedocs.io/en/latest/) [[Documentation](https://smote-variants.readthedocs.io/en/latest/)][[Github](https://github.com/analyticalmindsltd/smote_variants)] - A collection of 85 minority ***over-sampling*** techniques for imbalanced learning with multi-class oversampling and model selection features (support R and Julia).
+- [**smote_variants**](https://smote-variants.readthedocs.io/en/latest/) [[Documentation](https://smote-variants.readthedocs.io/en/latest/)][[Github](https://github.com/analyticalmindsltd/smote_variants)] - A collection of 85 minority ***over-sampling*** techniques for imbalanced learning with multi-class oversampling and model selection features (All writen in Python, also support R and Julia).
 - [**caret**](https://cran.r-project.org/web/packages/caret/index.html) [[Documentation](http://topepo.github.io/caret/index.html)][[Github](https://github.com/topepo/caret)] - Contains the implementation of Random under/over-sampling.
 - [**ROSE**](https://cran.r-project.org/web/packages/ROSE/index.html) [[Documentation](https://www.rdocumentation.org/packages/ROSE/versions/0.0-3)] - Contains the implementation of [ROSE](https://journal.r-project.org/archive/2014-1/menardi-lunardon-torelli.pdf) (Random Over-Sampling Examples).
 - [**DMwR**](https://cran.r-project.org/web/packages/DMwR/index.html) [[Documentation](https://www.rdocumentation.org/packages/DMwR/versions/0.4.1)] - Contains the implementation of [SMOTE](https://arxiv.org/pdf/1106.1813.pdf) (Synthetic Minority Over-sampling TEchnique).
@@ -52,7 +57,7 @@ Inspired by [awesome-machine-learning](https://github.com/josephmisiti/awesome-m
 - [**undersampling**](https://github.com/NestorRV/undersampling) [[Documentation](https://nestorrv.github.io/)][[Github](https://github.com/NestorRV/undersampling)] - A Scala library for ***under-sampling and their ensemble variants*** in imbalanced classification.
 
 ### Julia
-- [**smote_variants**](https://smote-variants.readthedocs.io/en/latest/) [[Documentation](https://smote-variants.readthedocs.io/en/latest/)][[Github](https://github.com/analyticalmindsltd/smote_variants)] - A collection of 85 minority ***over-sampling*** techniques for imbalanced learning with multi-class oversampling and model selection feature (support R and Julia).
+- [**smote_variants**](https://smote-variants.readthedocs.io/en/latest/) [[Documentation](https://smote-variants.readthedocs.io/en/latest/)][[Github](https://github.com/analyticalmindsltd/smote_variants)] - A collection of 85 minority ***over-sampling*** techniques for imbalanced learning with multi-class oversampling and model selection features (All writen in Python, also support R and Julia).
 
 # Papers
 
@@ -220,8 +225,15 @@ Inspired by [awesome-machine-learning](https://github.com/josephmisiti/awesome-m
 Note: This collection of datasets is from [imblearn.datasets.fetch_datasets](https://imbalanced-learn.readthedocs.io/en/stable/generated/imblearn.datasets.fetch_datasets.html#imblearn.datasets.fetch_datasets).
 
 ## Other Resources
-- [Paper-list-on-Imbalanced-Time-series-Classification-with-Deep-Learning](https://github.com/danielgy/Paper-list-on-Imbalanced-Time-series-Classification-with-Deep-Learning)
-- [acm_imbalanced_learning](https://github.com/timgasser/acm_imbalanced_learning) - slides and code for the ACM Imbalanced Learning talk on 27th April 2016 in Austin, TX.
-- [imbalanced-algorithms](https://github.com/dialnd/imbalanced-algorithms) - Python-based implementations of algorithms for learning on imbalanced data.
-- [imbalanced-dataset-sampler](https://github.com/ufoym/imbalanced-dataset-sampler) - A (PyTorch) imbalanced dataset sampler for oversampling low frequent classes and undersampling high frequent ones.
-- [class_imbalance](https://github.com/wangz10/class_imbalance) - Jupyter Notebook presentation for class imbalance in binary classification.
+
+- Code
+  - [imbalanced-algorithms](https://github.com/dialnd/imbalanced-algorithms) - Python-based implementations of algorithms for learning on imbalanced data.
+  - [imbalanced-dataset-sampler](https://github.com/ufoym/imbalanced-dataset-sampler) - A (PyTorch) imbalanced dataset sampler for oversampling low frequent classes and undersampling high frequent ones.
+  - [class_imbalance](https://github.com/wangz10/class_imbalance) - Jupyter Notebook presentation for class imbalance in binary classification.
+  - [Multi-class-with-imbalanced-dataset-classification](https://github.com/javaidnabi31/Multi-class-with-imbalanced-dataset-classification) - Perform multi-class classification on imbalanced 20-news-group dataset.
+  
+- Paper list
+  - [Paper-list-on-Imbalanced-Time-series-Classification-with-Deep-Learning](https://github.com/danielgy/Paper-list-on-Imbalanced-Time-series-Classification-with-Deep-Learning)
+
+- Slides
+  - [acm_imbalanced_learning](https://github.com/timgasser/acm_imbalanced_learning) - slides and code for the ACM Imbalanced Learning talk on 27th April 2016 in Austin, TX.
