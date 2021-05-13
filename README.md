@@ -1,18 +1,17 @@
-<h1 align="center"> Awesome Imbalanced Learning </h1>
+<!-- <h1 align="center"> Awesome Imbalanced Learning </h1> -->
+
+![](https://raw.githubusercontent.com/ZhiningLiu1998/figures/master/awesome-imbalanced-learning/awesome_imbalanced_learning_header.png)
 
 <p align="center">
   <img src="https://awesome.re/badge.svg">
+  <a href="https://github.com/ZhiningLiu1998/awesome-imbalanced-learning">
+    <img src="https://img.shields.io/badge/ZhiningLiu1998-AwesomeIL-orange">
+  </a>
   <img src="https://img.shields.io/github/stars/ZhiningLiu1998/awesome-imbalanced-learning">
   <img src="https://img.shields.io/github/forks/ZhiningLiu1998/awesome-imbalanced-learning">
   <img src="https://img.shields.io/github/issues/ZhiningLiu1998/awesome-imbalanced-learning">
   <img src="https://img.shields.io/github/license/ZhiningLiu1998/awesome-imbalanced-learning">
 </p>
-
-<!-- [![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re)
-![Stars](https://img.shields.io/github/stars/ZhiningLiu1998/awesome-imbalanced-learning)
-![Forks](https://img.shields.io/github/forks/ZhiningLiu1998/awesome-imbalanced-learning)
-![Issues](https://img.shields.io/github/issues/ZhiningLiu1998/awesome-imbalanced-learning)
-![License](https://img.shields.io/github/license/ZhiningLiu1998/awesome-imbalanced-learning) -->
 
 **A curated list of awesome imbalanced learning papers, codes, frameworks and libraries.**
 
@@ -35,10 +34,10 @@ Inspired by [awesome-machine-learning](https://github.com/josephmisiti/awesome-m
     - [Julia](#julia)
 - [Research Papers](#research-papers)
   - [Surveys](#surveys)
-  - [Deep Learning](#deep-learning)
   - [Ensemble Learning](#ensemble-learning)
   - [Data resampling](#data-resampling)
   - [Cost-sensitive Learning](#cost-sensitive-learning)
+  - [Deep Learning](#deep-learning)
   - [Anomaly Detection](#anomaly-detection)
 - [Others](#others)
   - [1. Imbalanced Datasets](#1-imbalanced-datasets)
@@ -83,87 +82,6 @@ Inspired by [awesome-machine-learning](https://github.com/josephmisiti/awesome-m
     
     > **NOTE:** a systematic survey with detailed taxonomies of existing methods.
 
-## Deep Learning
-
-- **Surveys**
-  - [A systematic study of the class imbalance problem in convolutional neural networks](https://arxiv.org/pdf/1710.05381.pdf) (2018, 330+ citations)
-  - [Survey on deep learning with class imbalance](https://www.researchgate.net/publication/332165523_Survey_on_deep_learning_with_class_imbalance) (2019, 50+ citations)
-    
-  > **NOTE:** a recent comprehensive survey of the class imbalance problem in deep learning.
-  
-- **Hard example mining**
-  
-  - [Training region-based object detectors with online hard example mining](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Shrivastava_Training_Region-Based_Object_CVPR_2016_paper.pdf) (CVPR 2016, 840+ citations) - In the later phase of NN training, only do gradient back-propagation for "hard examples" (i.e., with large loss value)
-  
-- **Loss function engineering**
-  - [Training deep neural networks on imbalanced data sets](https://www.researchgate.net/publication/309778930_Training_deep_neural_networks_on_imbalanced_data_sets) (IJCNN 2016, 110+ citations) - Mean (square) false error that can equally capture classification errors from both the majority class and the minority class.
-  
-  - [Focal loss for dense object detection](http://10.187.70.31/openaccess.thecvf.com/content_ICCV_2017/papers/Lin_Focal_Loss_for_ICCV_2017_paper.pdf) [[**Code (Unofficial)**](https://github.com/clcarwin/focal_loss_pytorch)] (ICCV 2017, 2600+ citations) - A uniform loss function that focuses training on a sparse set of hard examples to prevents the vast number of easy negatives from overwhelming the detector during training. 
-    > **NOTE:** elegant solution, high influence.
-  
-  - [Deep imbalanced attribute classification using visual attention aggregation](http://10.187.70.39/openaccess.thecvf.com/content_ECCV_2018/papers/Nikolaos_Sarafianos_Deep_Imbalanced_Attribute_ECCV_2018_paper.pdf) [[**Code**](https://github.com/cvcode18/imbalanced_learning)] (ECCV 2018, 30+ citation)
-  
-  - [Imbalanced deep learning by minority class incremental rectification](https://arxiv.org/pdf/1804.10851.pdf) (TPAMI 2018, 60+ citations) - Class Rectification Loss for minimizing the dominant effect of majority classes by discovering sparsely sampled boundaries of minority classes in an iterative batch-wise learning process.
-  
-  - [Learning Imbalanced Datasets with Label-Distribution-Aware Margin Loss](https://papers.nips.cc/paper/8435-learning-imbalanced-datasets-with-label-distribution-aware-margin-loss.pdf) [[**Code**](https://github.com/kaidic/LDAM-DRW)] (NIPS 2019, 10+ citations) - A theoretically-principled label-distribution-aware margin (LDAM) loss motivated by minimizing a margin-based generalization bound.
-  
-  - [Gradient harmonized single-stage detector](https://arxiv.org/pdf/1811.05181.pdf) [[**Code**](https://github.com/libuyu/GHM_Detection)] (AAAI 2019, 40+ citations) - Compared to Focal Loss, which only down-weights "easy" negative examples, GHM also down-weights "very hard" examples as they are likely to be outliers. 
-    > **NOTE:** interesting idea: harmonizing the contribution of examples on the basis of their gradient distribution.
-
-  - [Class-Balanced Loss Based on Effective Number of Samples](http://10.187.70.34/openaccess.thecvf.com/content_CVPR_2019/papers/Cui_Class-Balanced_Loss_Based_on_Effective_Number_of_Samples_CVPR_2019_paper.pdf) (CVPR 2019, 70+ citations) - a simple and generic class-reweighting mechanism based on Effective Number of Samples.
-  
-- **Meta-learning**
-  - [Learning to model the tail](http://10.187.70.33/papers.nips.cc/paper/7278-learning-to-model-the-tail.pdf) (NIPS 2017, 70+ citations) - Transfer meta-knowledge from the data-rich classes in the head of the distribution to the data-poor classes in the tail.
-  
-  - [Learning to reweight examples for robust deep learning](http://10.187.70.24/proceedings.mlr.press/v80/ren18a/ren18a.pdf) [[**Code**](https://github.com/uber-research/learning-to-reweight-examples)] (ICML 2018, 150+ citations) - Implicitly learn a weight function to reweight the samples in gradient updates of DNN.
-    > **NOTE:** representative work to solve the class imbalance problem through meta-learning.
-
-  - [Meta-weight-net: Learning an explicit mapping for sample weighting](https://papers.nips.cc/paper/8467-meta-weight-net-learning-an-explicit-mapping-for-sample-weighting.pdf) [[**Code**](https://github.com/xjtushujun/meta-weight-net)] (NIPS 2019) - Explicitly learn a weight function (with an MLP as the function approximator) to reweight the samples in gradient updates of DNN.
-  
-  - [Learning Data Manipulation for Augmentation and Weighting](https://www.cs.cmu.edu/~zhitingh/data/neurips19_data_manip_preprint.pdf) [[**Code**](https://github.com/tanyuqian/learning-data-manipulation)] (NIPS 2019)
-  
-  - [Learning to Balance: Bayesian Meta-Learning for Imbalanced and Out-of-distribution Tasks](https://openreview.net/attachment?id=rkeZIJBYvr&name=original_pdf) [[**Code**](https://github.com/haebeom-lee/l2b)] (ICLR 2020)
-
-  - [MESA: Boost Ensemble Imbalanced Learning with MEta-SAmpler](https://arxiv.org/pdf/2010.08830.pdf) [[**Code**](https://github.com/ZhiningLiu1998/mesa)] [[**Video**](https://studio.slideslive.com/web_recorder/share/20201020T134559Z__NeurIPS_posters__17343__mesa-effective-ensemble-imbal?s=d3745afc-cfcf-4d60-9f34-63d3d811b55f)] (NeurIPS 2020) 
-  
-    > **NOTE:** meta-learning-powered ensemble learning
-  
-- **Representation Learning**
-  - [Learning deep representation for imbalanced classification](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Huang_Learning_Deep_Representation_CVPR_2016_paper.pdf) (CVPR 2016, 220+ citations)
-
-  - [Supervised Class Distribution Learning for GANs-Based Imbalanced Classification](https://ieeexplore.ieee.xilesou.top/abstract/document/8970900) (ICDM 2019)
-  
-  - [Decoupling Representation and Classifier for Long-tailed Recognition](https://arxiv.org/pdf/1910.09217.pdf) [[**Code**](https://github.com/facebookresearch/classifier-balancing)] (ICLR 2020)
-    > **NOTE:** interesting findings
-  
-  - Generative Modeling of Factorized Representations in Class-Imbalanced Data (NeurIPS 2020, paper not released yet)
-  
-- **Posterior Recalibration**
-  
-  - [Posterior Re-calibration for Imbalanced Datasets](https://arxiv.org/pdf/2010.11820.pdf) (NeurIPS 2020)
-  
-- **Semi/Self-supervised Learning**
-  - [Rethinking the Value of Labels for Improving Class-Imbalanced Learning](https://arxiv.org/pdf/2006.07529.pdf) [[**Code**](https://github.com/YyzHarry/imbalanced-semi-self)] [[**Video**](https://www.youtube.com/watch?v=XltXZ3OZvyI&feature=youtu.be)] (NeurIPS 2020)
-    
-    > **NOTE:** semi-supervised training / self-supervised pre-training helps imbalance learning
-  - [Distribution Aligning Refinery of Pseudo-label for Imbalanced Semi-supervised Learning](https://arxiv.org/pdf/2007.08844.pdf) (NeurIPS 2020)
-
-
-- **Curriculum Learning**
-  - [Dynamic Curriculum Learning for Imbalanced Data Classification](http://10.187.70.15/openaccess.thecvf.com/content_ICCV_2019/papers/Wang_Dynamic_Curriculum_Learning_for_Imbalanced_Data_Classification_ICCV_2019_paper.pdf) (ICCV 2019)
-
-- **Two-phase Training**
-  - [Brain tumor segmentation with deep neural networks](https://arxiv.org/pdf/1505.03540.pdf) (2017, 1200+ citations) - Pre-training on balanced dataset, fine-tuning the last output layer before softmax on the original, imbalanced data.
-
-- **Network Architecture**
-  - [BBN: Bilateral-Branch Network with Cumulative Learning for Long-Tailed Visual Recognition](https://arxiv.org/pdf/1912.02413.pdf) (CVPR 2020)
-
-- **Graph Neural Networks**
-  - [GraphSMOTE: Imbalanced Node Classification on Graphs with Graph Neural Networks](https://dl.acm.org/doi/pdf/10.1145/3437963.3441720) (WSDM 2021)
-
-- **Deep Generative Model**
-  - [Deep Generative Model for Robust Imbalance Classification](https://openaccess.thecvf.com/content_CVPR_2020/papers/Wang_Deep_Generative_Model_for_Robust_Imbalance_Classification_CVPR_2020_paper.pdf) (CVPR 2020)
-
 ## Ensemble Learning
 
 - **General ensemble**
@@ -173,7 +91,7 @@ Inspired by [awesome-machine-learning](https://github.com/josephmisiti/awesome-m
   - [MESA: Boost Ensemble Imbalanced Learning with MEta-SAmpler](https://arxiv.org/pdf/2010.08830.pdf) [[**Code**](https://github.com/ZhiningLiu1998/mesa)] [[**Video**](https://studio.slideslive.com/web_recorder/share/20201020T134559Z__NeurIPS_posters__17343__mesa-effective-ensemble-imbal?s=d3745afc-cfcf-4d60-9f34-63d3d811b55f)] [[**Zhihu/知乎**](https://zhuanlan.zhihu.com/p/268539195)] (NeurIPS 2020) 
     > **NOTE:** *outstanding performance* by learning an optimal sampling policy directly from data.
 
-  - [EasyEnsemble & BalanceCascade](https://sci2s.ugr.es/keel/pdf/algorithm/articulo/2009-IEEE%20TSMCpartB%20Exploratory%20Undersampling%20for%20Class%20Imbalance%20Learning.pdf) [[**Code (EasyEnsemble**)](https://github.com/scikit-learn-contrib/imbalanced-learn/blob/master/imblearn/ensemble/_easy_ensemble.py#L30)] [[**Code (BalanceCascade)**](https://github.com/ZhiningLiu1998/self-paced-ensemble/blob/master/canonical_ensemble.py#L709)] (2008, 1300+ citations)
+  - [EasyEnsemble & BalanceCascade](https://sci2s.ugr.es/keel/pdf/algorithm/articulo/2009-IEEE%20TSMCpartB%20Exploratory%20Undersampling%20for%20Class%20Imbalance%20Learning.pdf) [[**Code (EasyEnsemble**)](https://github.com/scikit-learn-contrib/imbalanced-learn/blob/master/imblearn/ensemble/_easy_ensemble.py#L30)] (2008, 1300+ citations)
     > **NOTE:** simple but effective solution.
   
 - **Boosting-based**
@@ -218,7 +136,7 @@ Inspired by [awesome-machine-learning](https://github.com/josephmisiti/awesome-m
   - 85 variants of SMOTE [[**Code**](https://github.com/analyticalmindsltd/smote_variants)]
   
 - **Under-sampling**
-  - RUS [[Code](https://github.com/scikit-learn-contrib/imbalanced-learn/blob/master/imblearn/under_sampling/_prototype_selection/_random_under_sampler.py)] - Random Under-sampling 
+  - RUS [[**Code**](https://github.com/scikit-learn-contrib/imbalanced-learn/blob/master/imblearn/under_sampling/_prototype_selection/_random_under_sampler.py)] - Random Under-sampling 
   - [CNN](https://pdfs.semanticscholar.org/7c37/71fd6829630cf450af853df728ecd8da4ab2.pdf?_ga=2.137274553.882046879.1583413150-1712662047.1583413150) [[**Code**](https://github.com/scikit-learn-contrib/imbalanced-learn/blob/master/imblearn/under_sampling/_prototype_selection/_condensed_nearest_neighbour.py)] (1968, 2100+ citations) - Condensed Nearest Neighbor 
   - [ENN](https://sci2s.ugr.es/keel/dataset/includes/catImbFiles/1972-Wilson-IEEETSMC.pdf) [[**Code**](https://github.com/scikit-learn-contrib/imbalanced-learn/blob/master/imblearn/under_sampling/_prototype_selection/_edited_nearest_neighbours.py)] (1972, 1500+ citations) - Edited Condensed Nearest Neighbor 
   - [TomekLink](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=4309452) [[**Code**](https://github.com/scikit-learn-contrib/imbalanced-learn/blob/master/imblearn/under_sampling/_prototype_selection/_tomek_links.py)] (1976, 870+ citations) - Tomek's modification of Condensed Nearest Neighbor 
@@ -245,15 +163,98 @@ Inspired by [awesome-machine-learning](https://github.com/josephmisiti/awesome-m
 
 - [CSNN](https://sci2s.ugr.es/keel/pdf/algorithm/articulo/2006%20-%20IEEE_TKDE%20-%20Zhou_Liu.pdf) [[**Code (Java)**](https://github.com/SCI2SUGR/KEEL/blob/master/src/keel/Algorithms/ImbalancedClassification/CSMethods/MLPerceptronBackpropCS/MLPerceptronBackpropCS.java#L49)] (2005, 950+ citations) - Training cost-sensitive neural networks with methods addressing the class imbalance problem.
 
+## Deep Learning
+
+- **Surveys**
+  
+  - [A systematic study of the class imbalance problem in convolutional neural networks](https://arxiv.org/pdf/1710.05381.pdf) (2018, 330+ citations)
+  
+  - [Survey on deep learning with class imbalance](https://www.researchgate.net/publication/332165523_Survey_on_deep_learning_with_class_imbalance) (2019, 50+ citations)
+    
+    > **NOTE:** a recent comprehensive survey of the class imbalance problem in deep learning.
+  
+- **Hard example mining**
+  
+  - [Training region-based object detectors with online hard example mining](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Shrivastava_Training_Region-Based_Object_CVPR_2016_paper.pdf) [[**Code**](https://github.com/abhi2610/ohemh)] (CVPR 2016, 840+ citations) - In the later phase of NN training, only do gradient back-propagation for "hard examples" (i.e., with large loss value)
+  
+- **Loss function engineering**
+  
+  - [Focal loss for dense object detection](http://10.187.70.31/openaccess.thecvf.com/content_ICCV_2017/papers/Lin_Focal_Loss_for_ICCV_2017_paper.pdf) [[**Code (detectron2)**](https://github.com/facebookresearch/detectron2)] [[**Code (unofficial)**](https://github.com/clcarwin/focal_loss_pytorch)] (ICCV 2017, 2600+ citations) - A uniform loss function that focuses training on a sparse set of hard examples to prevents the vast number of easy negatives from overwhelming the detector during training. 
+    > **NOTE:** elegant solution, high influence.
+
+  - [Training deep neural networks on imbalanced data sets](https://www.researchgate.net/publication/309778930_Training_deep_neural_networks_on_imbalanced_data_sets) (IJCNN 2016, 110+ citations) - Mean (square) false error that can equally capture classification errors from both the majority class and the minority class.
+  
+  - [Deep imbalanced attribute classification using visual attention aggregation](http://10.187.70.39/openaccess.thecvf.com/content_ECCV_2018/papers/Nikolaos_Sarafianos_Deep_Imbalanced_Attribute_ECCV_2018_paper.pdf) [[**Code**](https://github.com/cvcode18/imbalanced_learning)] (ECCV 2018, 30+ citation)
+  
+  - [Imbalanced deep learning by minority class incremental rectification](https://arxiv.org/pdf/1804.10851.pdf) (TPAMI 2018, 60+ citations) - Class Rectification Loss for minimizing the dominant effect of majority classes by discovering sparsely sampled boundaries of minority classes in an iterative batch-wise learning process.
+  
+  - [Learning Imbalanced Datasets with Label-Distribution-Aware Margin Loss](https://papers.nips.cc/paper/8435-learning-imbalanced-datasets-with-label-distribution-aware-margin-loss.pdf) [[**Code**](https://github.com/kaidic/LDAM-DRW)] (NIPS 2019, 10+ citations) - A theoretically-principled label-distribution-aware margin (LDAM) loss motivated by minimizing a margin-based generalization bound.
+  
+  - [Gradient harmonized single-stage detector](https://arxiv.org/pdf/1811.05181.pdf) [[**Code**](https://github.com/libuyu/GHM_Detection)] (AAAI 2019, 40+ citations) - Compared to Focal Loss, which only down-weights "easy" negative examples, GHM also down-weights "very hard" examples as they are likely to be outliers. 
+
+  - [Class-Balanced Loss Based on Effective Number of Samples](http://10.187.70.34/openaccess.thecvf.com/content_CVPR_2019/papers/Cui_Class-Balanced_Loss_Based_on_Effective_Number_of_Samples_CVPR_2019_paper.pdf) [[**Code**](https://github.com/richardaecn/class-balanced-loss)] (CVPR 2019, 70+ citations) - a simple and generic class-reweighting mechanism based on Effective Number of Samples.
+  
+- **Meta-learning**
+  - [Learning to model the tail](http://10.187.70.33/papers.nips.cc/paper/7278-learning-to-model-the-tail.pdf) (NIPS 2017, 70+ citations) - Transfer meta-knowledge from the data-rich classes in the head of the distribution to the data-poor classes in the tail.
+  
+  - [Learning to reweight examples for robust deep learning](http://10.187.70.24/proceedings.mlr.press/v80/ren18a/ren18a.pdf) [[**Code**](https://github.com/uber-research/learning-to-reweight-examples)] (ICML 2018, 150+ citations) - Implicitly learn a weight function to reweight the samples in gradient updates of DNN.
+    > **NOTE:** representative work to solve the class imbalance problem through meta-learning.
+
+  - [Meta-weight-net: Learning an explicit mapping for sample weighting](https://papers.nips.cc/paper/8467-meta-weight-net-learning-an-explicit-mapping-for-sample-weighting.pdf) [[**Code**](https://github.com/xjtushujun/meta-weight-net)] (NIPS 2019) - Explicitly learn a weight function (with an MLP as the function approximator) to reweight the samples in gradient updates of DNN.
+  
+  - [Learning Data Manipulation for Augmentation and Weighting](https://www.cs.cmu.edu/~zhitingh/data/neurips19_data_manip_preprint.pdf) [[**Code**](https://github.com/tanyuqian/learning-data-manipulation)] (NIPS 2019)
+  
+  - [Learning to Balance: Bayesian Meta-Learning for Imbalanced and Out-of-distribution Tasks](https://openreview.net/attachment?id=rkeZIJBYvr&name=original_pdf) [[**Code**](https://github.com/haebeom-lee/l2b)] (ICLR 2020)
+
+  - [MESA: Boost Ensemble Imbalanced Learning with MEta-SAmpler](https://arxiv.org/pdf/2010.08830.pdf) [[**Code**](https://github.com/ZhiningLiu1998/mesa)] [[**Video**](https://studio.slideslive.com/web_recorder/share/20201020T134559Z__NeurIPS_posters__17343__mesa-effective-ensemble-imbal?s=d3745afc-cfcf-4d60-9f34-63d3d811b55f)] (NeurIPS 2020) 
+  
+    > **NOTE:** meta-learning-powered ensemble learning
+  
+- **Representation Learning**
+  - [Learning deep representation for imbalanced classification](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Huang_Learning_Deep_Representation_CVPR_2016_paper.pdf) (CVPR 2016, 220+ citations)
+
+  - [Supervised Class Distribution Learning for GANs-Based Imbalanced Classification](https://ieeexplore.ieee.xilesou.top/abstract/document/8970900) (ICDM 2019)
+  
+  - [Decoupling Representation and Classifier for Long-tailed Recognition](https://arxiv.org/pdf/1910.09217.pdf) [[**Code**](https://github.com/facebookresearch/classifier-balancing)] (ICLR 2020)
+    > **NOTE:** interesting findings
+  
+- **Posterior Recalibration**
+  
+  - [Posterior Re-calibration for Imbalanced Datasets](https://arxiv.org/pdf/2010.11820.pdf) [[**Code**](https://github.com/GT-RIPL/UNO-IC)] (NeurIPS 2020)
+
+  - [Long-tail learning via logit adjustment](https://arxiv.org/pdf/2007.07314v1.pdf) [[**Code**](https://github.com/google-research/google-research/tree/master/logit_adjustment)] (ICLR 2021)
+  
+- **Semi/Self-supervised Learning**
+  - [Rethinking the Value of Labels for Improving Class-Imbalanced Learning](https://arxiv.org/pdf/2006.07529.pdf) [[**Code**](https://github.com/YyzHarry/imbalanced-semi-self)] [[**Video**](https://www.youtube.com/watch?v=XltXZ3OZvyI&feature=youtu.be)] (NeurIPS 2020)
+    
+    > **NOTE:** semi-supervised training / self-supervised pre-training helps imbalance learning
+  - [Distribution Aligning Refinery of Pseudo-label for Imbalanced Semi-supervised Learning](https://arxiv.org/pdf/2007.08844.pdf) [[**Code**](https://github.com/bbuing9/DARP)] (NeurIPS 2020)
+
+
+- **Curriculum Learning**
+  - [Dynamic Curriculum Learning for Imbalanced Data Classification](http://10.187.70.15/openaccess.thecvf.com/content_ICCV_2019/papers/Wang_Dynamic_Curriculum_Learning_for_Imbalanced_Data_Classification_ICCV_2019_paper.pdf) (ICCV 2019)
+
+- **Two-phase Training**
+  - [Brain tumor segmentation with deep neural networks](https://arxiv.org/pdf/1505.03540.pdf) [[**Code (unofficial)**](https://github.com/naldeborgh7575/brain_segmentation)] (2017, 1200+ citations) - Pre-training on balanced dataset, fine-tuning the last output layer before softmax on the original, imbalanced data.
+
+- **Network Architecture**
+  - [BBN: Bilateral-Branch Network with Cumulative Learning for Long-Tailed Visual Recognition](https://arxiv.org/pdf/1912.02413.pdf) [[**Code**](https://github.com/Megvii-Nanjing/BBN)] (CVPR 2020)
+  
+  - [Class-Imbalanced Deep Learning via a Class-Balanced Ensemble](https://ieeexplore.ieee.org/abstract/document/9416240) (TNNLS 2021)
+
+- **Graph Neural Networks**
+  - [GraphSMOTE: Imbalanced Node Classification on Graphs with Graph Neural Networks](https://dl.acm.org/doi/pdf/10.1145/3437963.3441720) [[**Code**](https://github.com/TianxiangZhao/GraphSmote)] (WSDM 2021)
+
+- **Deep Generative Model**
+  - [Deep Generative Model for Robust Imbalance Classification](https://openaccess.thecvf.com/content_CVPR_2020/papers/Wang_Deep_Generative_Model_for_Robust_Imbalance_Classification_CVPR_2020_paper.pdf) (CVPR 2020)
+
 ## Anomaly Detection
 
-- [Anomaly Detection Learning Resources](https://github.com/yzhao062/anomaly-detection-resources) by [yzhao062](https://github.com/yzhao062) - Anomaly detection related books, papers, videos, and toolboxes.
-
-- Surveys
+- **Surveys**
   - [Anomaly detection: A survey](http://10.187.70.15/cinslab.com/wp-content/uploads/2019/03/xiaorong.pdf) (2009, 7300+ citations)
   - [A survey of network anomaly detection techniques](https://www.gta.ufrj.br/~alvarenga/files/CPE826/Ahmed2016-Survey.pdf) (2017, 210+ citations)
 
-- Classification-based
+- **Classification-based**
   - [One-class SVMs for document classification](http://10.187.70.31/www.jmlr.org/papers/volume2/manevitz01a/manevitz01a.pdf) (2001, 1300+ citations)
   - [One-class Collaborative Filtering](https://cseweb.ucsd.edu/classes/fa17/cse291-b/reading/04781145.pdf) (2008, 830+ citations)
   - [Isolation Forest](https://cs.nju.edu.cn/zhouzh/zhouzh.files/publication/icdm08b.pdf?q=isolation-forest) (2008, 1000+ citations)
@@ -313,7 +314,10 @@ https://github.com/gykovacs/mldb/tree/master/mldb/data/classification
   - [Multi-class-with-imbalanced-dataset-classification](https://github.com/javaidnabi31/Multi-class-with-imbalanced-dataset-classification) - Perform multi-class classification on imbalanced 20-news-group dataset.
   
 - Paper list
-  - [Paper-list-on-Imbalanced-Time-series-Classification-with-Deep-Learning](https://github.com/danielgy/Paper-list-on-Imbalanced-Time-series-Classification-with-Deep-Learning)
+
+  - [Anomaly Detection Learning Resources](https://github.com/yzhao062/anomaly-detection-resources) by [yzhao062](https://github.com/yzhao062) - Anomaly detection related books, papers, videos, and toolboxes.
+
+  - [Paper-list-on-Imbalanced-Time-series-Classification-with-Deep-Learning](https://github.com/danielgy/Paper-list-on-Imbalanced-Time-series-Classification-with-Deep-Learning) - Imbalanced Time-series Classification
 
 - Slides
   - [acm_imbalanced_learning](https://github.com/timgasser/acm_imbalanced_learning) - slides and code for the ACM Imbalanced Learning talk on 27th April 2016 in Austin, TX.
