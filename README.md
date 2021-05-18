@@ -48,6 +48,9 @@ Inspired by [awesome-machine-learning](https://github.com/josephmisiti/awesome-m
 # Frameworks and Libraries
 
 ### Python
+- [**imbalanced-ensemble**](https://imbalanced-ensemble.readthedocs.io/) [[**Github**](https://github.com/ZhiningLiu1998/imbalanced-ensemble)][[**Documentation**](https://imbalanced-ensemble.readthedocs.io/)] - *imbalanced-ensemble* (imported as `imbalanced_ensemble`) is a Python toolbox for quick implementing and deploying ensemble imbalanced learning algorithms. This package aims to provide users with easy-to-use ensemble imbalanced learning (EIL) methods and related utilities, so that everyone can quickly deploy EIL algorithms to their tasks.
+  > **NOTE:** written in python, easy to use.
+
 - [**imbalanced-learn**](https://imbalanced-learn.org/stable/) [[**Github**](https://github.com/scikit-learn-contrib/imbalanced-learn)][[**Documentation**](https://imbalanced-learn.readthedocs.io/en/stable/)][[**Paper**](http://10.187.70.34/www.jmlr.org/papers/volume18/16-365/16-365.pdf)] - imbalanced-learn is a python package offering a number of ***re-sampling*** techniques commonly used in datasets showing strong between-class imbalance. It is compatible with [scikit-learn](https://scikit-learn.org/stable/) and is part of [scikit-learn-contrib](https://github.com/scikit-learn-contrib) projects. 
   > **NOTE:** written in python, easy to use.
 
