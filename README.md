@@ -23,6 +23,14 @@ Inspired by [awesome-machine-learning](https://github.com/josephmisiti/awesome-m
 > - Research papers are grouped by *research field*.
 > - There are tons of papers in this research area, we only keep those **"awesome"** ones that either *have a good influence* or *published in reputed top conferences/journals*.
 
+<h3>
+<font color='DeepPink'>What's new: </font>
+</h3>
+
+- [05/2021] Scikit-learn-like package [imbalanced-ensemble](https://github.com/ZhiningLiu1998/imbalanced-ensemble) [[Github](https://github.com/ZhiningLiu1998/imbalanced-ensemble)][[Documentation](https://imbalanced-ensemble.readthedocs.io/)].
+- [05/2021] Papers from ICLR/CVPR/WSDM/TKDE/TNNLS.
+- [11/2020] Papers from NeurIPS/ICLR.
+
 # Table of Contents
 
 - [Table of Contents](#table-of-contents)
