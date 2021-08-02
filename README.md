@@ -24,7 +24,7 @@ Inspired by [awesome-machine-learning](https://github.com/josephmisiti/awesome-m
 > - There are tons of papers in this research area, we only keep those **"awesome"** ones that either *have a good influence* or *published in reputed top conferences/journals*.
 
 <h3>
-<font color='DeepPink'>What's new: </font>
+<font color='red'>What's new: </font>
 </h3>
 
 - [05/2021] Scikit-learn-like package [imbalanced-ensemble](https://github.com/ZhiningLiu1998/imbalanced-ensemble) [[Github](https://github.com/ZhiningLiu1998/imbalanced-ensemble)][[Documentation](https://imbalanced-ensemble.readthedocs.io/)].
@@ -56,7 +56,7 @@ Inspired by [awesome-machine-learning](https://github.com/josephmisiti/awesome-m
 # Frameworks and Libraries
 
 ### Python
-- [**imbalanced-ensemble**](https://imbalanced-ensemble.readthedocs.io/) [[**Github**](https://github.com/ZhiningLiu1998/imbalanced-ensemble)][[**Documentation**](https://imbalanced-ensemble.readthedocs.io/)] - *imbalanced-ensemble* (imported as `imbalanced_ensemble`) is a Python toolbox for quick implementing and deploying ensemble imbalanced learning algorithms. This package aims to provide users with easy-to-use ensemble imbalanced learning (EIL) methods and related utilities, so that everyone can quickly deploy EIL algorithms to their tasks.
+- [**imbalanced-ensemble**](https://imbalanced-ensemble.readthedocs.io/) [[**Github**](https://github.com/ZhiningLiu1998/imbalanced-ensemble)][[**Documentation**](https://imbalanced-ensemble.readthedocs.io/)] - imbalanced-ensemble (IMBENS, imported as ``imbalanced_ensemble``) is a Python toolbox for quick implementing and deploying ***ensemble learning algorithms*** on class-imbalanced data. Currently, it includes more than 15 ***re-sampling*** and ***cost-sensitive learning*** algorithms (e.g., SMOTEBoost/Bagging, RUSBoost/Bagging, AdaCost, EasyEnsemble, BalanceCascade, SelfPacedEnsemble).
   > **NOTE:** written in python, easy to use.
 
 - [**imbalanced-learn**](https://imbalanced-learn.org/stable/) [[**Github**](https://github.com/scikit-learn-contrib/imbalanced-learn)][[**Documentation**](https://imbalanced-learn.readthedocs.io/en/stable/)][[**Paper**](http://10.187.70.34/www.jmlr.org/papers/volume18/16-365/16-365.pdf)] - imbalanced-learn is a python package offering a number of ***re-sampling*** techniques commonly used in datasets showing strong between-class imbalance. It is compatible with [scikit-learn](https://scikit-learn.org/stable/) and is part of [scikit-learn-contrib](https://github.com/scikit-learn-contrib) projects. 
@@ -258,6 +258,10 @@ Inspired by [awesome-machine-learning](https://github.com/josephmisiti/awesome-m
 
 - **Deep Generative Model**
   - [Deep Generative Model for Robust Imbalance Classification](https://openaccess.thecvf.com/content_CVPR_2020/papers/Wang_Deep_Generative_Model_for_Robust_Imbalance_Classification_CVPR_2020_paper.pdf) (CVPR 2020)
+
+- **Imbalanced Regression**
+  - [Delving into Deep Imbalanced Regression](https://arxiv.org/pdf/2102.09554.pdf) [[**Code**](https://github.com/YyzHarry/imbalanced-regression)][[**Video**](https://www.youtube.com/watch?v=grJGixofQRU)] (ICML 2021)
+  - [Density-based weighting for imbalanced regression](https://link.springer.com/article/10.1007/s10994-021-06023-5) [[**Code**](https://github.com/SteiMi/density-based-weighting-for-imbalanced-regression)] (Machine Learning [J])
 
 ## Anomaly Detection
 
