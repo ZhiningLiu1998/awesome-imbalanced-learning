@@ -19,17 +19,21 @@
 
 Inspired by [awesome-machine-learning](https://github.com/josephmisiti/awesome-machine-learning). **Contributions are welcomed!**
 
-> - Frameworks and libraries are grouped by *programming language*.
-> - Research papers are grouped by *research field*.
-> - There are tons of papers in this research area, we only keep those **"awesome"** ones that either *have a good influence* or *published in reputed top conferences/journals*.
+- Frameworks and libraries are grouped by *programming language*.
+- Research papers are grouped by *research field*.
+- There are numerous papers in this field of research, so this list is not intended to be exhaustive. We aim to keep only the "awesome" works that either *have a good impact* or have been *published in reputed top conferences/journals*.
+
 
 <h3>
 <font color='red'>What's new: </font>
 </h3>
 
-- [05/2021] Scikit-learn-like package [imbalanced-ensemble](https://github.com/ZhiningLiu1998/imbalanced-ensemble) [[Github](https://github.com/ZhiningLiu1998/imbalanced-ensemble)][[Documentation](https://imbalanced-ensemble.readthedocs.io/)].
-- [05/2021] Papers from ICLR/CVPR/WSDM/TKDE/TNNLS.
-- [11/2020] Papers from NeurIPS/ICLR.
+- [08/2021] Add papers on cost-sensitive ensemble learning.
+- [05/2021] Add a scikit-learn-like package [imbalanced-ensemble](https://github.com/ZhiningLiu1998/imbalanced-ensemble) [[Github](https://github.com/ZhiningLiu1998/imbalanced-ensemble)][[Documentation](https://imbalanced-ensemble.readthedocs.io/)].
+- [05/2021] Add papers from ICLR/CVPR/WSDM/TKDE/TNNLS.
+- [11/2020] Add papers from NeurIPS/ICLR.
+
+**Disclosure:** Zhining Liu is an author on the following works: [imbalanced-ensemble](https://github.com/ZhiningLiu1998/imbalanced-ensemble), [Self-paced Ensemble](https://github.com/ZhiningLiu1998/self-paced-ensemble), [MESA](https://github.com/ZhiningLiu1998/mesa).
 
 # Table of Contents
 
