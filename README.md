@@ -28,10 +28,14 @@ Inspired by [awesome-machine-learning](https://github.com/josephmisiti/awesome-m
 <font color='red'>What's new: </font>
 </h3>
 
+- [10/2021] Add papers from ICCV.
 - [08/2021] Add papers on cost-sensitive ensemble learning.
 - [05/2021] Add a scikit-learn-like package [imbalanced-ensemble](https://github.com/ZhiningLiu1998/imbalanced-ensemble) [[Github](https://github.com/ZhiningLiu1998/imbalanced-ensemble)][[Documentation](https://imbalanced-ensemble.readthedocs.io/)].
 - [05/2021] Add papers from ICLR/CVPR/WSDM/TKDE/TNNLS.
-- [11/2020] Add papers from NeurIPS/ICLR.
+- <details>
+  <summary>More</summary>
+      <LI> [11/2020] Add papers from NeurIPS/ICLR. <br>
+  </details>    
 
 **Disclosure:** Zhining Liu is an author on the following works: [imbalanced-ensemble](https://github.com/ZhiningLiu1998/imbalanced-ensemble), [Self-paced Ensemble](https://github.com/ZhiningLiu1998/self-paced-ensemble), [MESA](https://github.com/ZhiningLiu1998/mesa).
 
@@ -284,6 +288,8 @@ Inspired by [awesome-machine-learning](https://github.com/josephmisiti/awesome-m
   - Gradient harmonized single-stage detector (AAAI 2019, 40+ citations) [[**Paper**](https://arxiv.org/pdf/1811.05181.pdf)][[**Code**](https://github.com/libuyu/GHM_Detection)] - Compared to Focal Loss, which only down-weights "easy" negative examples, GHM also down-weights "very hard" examples as they are likely to be outliers. 
 
   - Class-Balanced Loss Based on Effective Number of Samples (CVPR 2019, 70+ citations) [[**Paper**](http://10.187.70.34/openaccess.thecvf.com/content_CVPR_2019/papers/Cui_Class-Balanced_Loss_Based_on_Effective_Number_of_Samples_CVPR_2019_paper.pdf)][[**Code**](https://github.com/richardaecn/class-balanced-loss)] - a simple and generic class-reweighting mechanism based on Effective Number of Samples.
+  
+  - Influence-Balanced Loss for Imbalanced Visual Classification (ICCV 2021) [[**Paper**](https://arxiv.org/pdf/2110.02444.pdf)][[**Code**](https://github.com/pseulki/IB-Loss)]
 
 #### *Meta-learning*
 <!-- - **Meta-learning** -->
