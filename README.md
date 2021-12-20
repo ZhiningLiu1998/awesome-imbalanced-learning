@@ -1,6 +1,8 @@
 <!-- <h1 align="center"> Awesome Imbalanced Learning </h1> -->
 
-![](https://raw.githubusercontent.com/ZhiningLiu1998/figures/master/awesome-imbalanced-learning/awesome_imbalanced_learning_header.png)
+<!-- ![](https://raw.githubusercontent.com/ZhiningLiu1998/figures/master/awesome-imbalanced-learning/awesome_imbalanced_learning_header.png) -->
+
+![](https://raw.githubusercontent.com/ZhiningLiu1998/figures/master/awesome-imbalanced-learning/awesomeIL-logo.png)
 
 <p align="center">
   <img src="https://awesome.re/badge.svg">
@@ -28,6 +30,7 @@ Inspired by [awesome-machine-learning](https://github.com/josephmisiti/awesome-m
 <font color='red'>What's new: </font>
 </h3>
 
+- [12/2021] Add papers from NeurIPS.
 - [10/2021] Add papers from ICCV.
 - [08/2021] Add papers on cost-sensitive ensemble learning.
 - [05/2021] Add a scikit-learn-like package [imbalanced-ensemble](https://github.com/ZhiningLiu1998/imbalanced-ensemble) [[Github](https://github.com/ZhiningLiu1998/imbalanced-ensemble)][[Documentation](https://imbalanced-ensemble.readthedocs.io/)].
@@ -291,6 +294,10 @@ Inspired by [awesome-machine-learning](https://github.com/josephmisiti/awesome-m
   
   - Influence-Balanced Loss for Imbalanced Visual Classification (ICCV 2021) [[**Paper**](https://arxiv.org/pdf/2110.02444.pdf)][[**Code**](https://github.com/pseulki/IB-Loss)]
 
+  - AutoBalance: Optimized Loss Functions for Imbalanced Data (NeurIPS 2021) [[**Paper**](https://openreview.net/pdf?id=ebQXflQre5a)]
+
+  - Label-Imbalanced and Group-Sensitive Classification under Overparameterization (NeurIPS 2021) [[**Paper**](https://proceedings.neurips.cc//paper/2021/file/9dfcf16f0adbc5e2a55ef02db36bac7f-Paper.pdf)][[**Code**](https://github.com/orparask/VS-Loss)]
+
 #### *Meta-learning*
 <!-- - **Meta-learning** -->
 
@@ -319,6 +326,8 @@ Inspired by [awesome-machine-learning](https://github.com/josephmisiti/awesome-m
   - Decoupling Representation and Classifier for Long-tailed Recognition (ICLR 2020) [[**Paper**](https://arxiv.org/pdf/1910.09217.pdf)][[**Code**](https://github.com/facebookresearch/classifier-balancing)]
     > **NOTE:** interesting findings on representation learning and classifier learning
 
+  - Supercharging Imbalanced Data Learning With Energy-based Contrastive Representation Transfer (NeurIPS 2021) [[**Paper**](https://proceedings.neurips.cc//paper/2021/file/b151ce4935a3c2807e1dd9963eda16d8-Paper.pdf)]
+
 #### *Posterior Recalibration*
 <!-- - **Posterior Recalibration** -->
   
@@ -334,6 +343,10 @@ Inspired by [awesome-machine-learning](https://github.com/josephmisiti/awesome-m
     > **NOTE:** semi-supervised training / self-supervised pre-training helps imbalance learning
   
   - Distribution Aligning Refinery of Pseudo-label for Imbalanced Semi-supervised Learning (NeurIPS 2020) [[**Paper**](https://arxiv.org/pdf/2007.08844.pdf)][[**Code**](https://github.com/bbuing9/DARP)]
+
+  - ABC: Auxiliary Balanced Classifier for Class-imbalanced Semi-supervised Learning (NeurIPS 2021) [[**Paper**](https://proceedings.neurips.cc//paper/2021/file/3953630da28e5181cffca1278517e3cf-Paper.pdf)][[**Code**](https://github.com/leehyuck/abc)]
+
+  - Improving Contrastive Learning on Imbalanced Data via Open-World Sampling (NeurIPS 2021) [[**Paper**](https://proceedings.neurips.cc//paper/2021/file/2f37d10131f2a483a8dd005b3d14b0d9-Paper.pdf)]
 
 
 #### *Curriculum Learning*
@@ -359,6 +372,8 @@ Inspired by [awesome-machine-learning](https://github.com/josephmisiti/awesome-m
 <!-- - **Graph Neural Networks** -->
 
   - GraphSMOTE: Imbalanced Node Classification on Graphs with Graph Neural Networks (WSDM 2021) [[**Paper**](https://dl.acm.org/doi/pdf/10.1145/3437963.3441720)][[**Code**](https://github.com/TianxiangZhao/GraphSmote)]
+  - Topology-Imbalance Learning for Semi-Supervised Node Classification (NeurIPS 2021) [[**Paper**](https://proceedings.neurips.cc//paper/2021/file/fa7cdfad1a5aaf8370ebeda47a1ff1c3-Paper.pdf)][[**Code**](https://github.com/victorchen96/renode)]
+
 
 #### *Deep Generative Model*
 <!-- - **Deep Generative Model** -->
