@@ -4,10 +4,15 @@
 
 ![](https://raw.githubusercontent.com/ZhiningLiu1998/figures/master/awesome-imbalanced-learning/awesomeIL-logo.png)
 
+<h2 align="center"> Curated imbalanced learning papers, codes, and libraries </h2>
+
 <p align="center">
   <img src="https://awesome.re/badge.svg">
   <a href="https://github.com/ZhiningLiu1998/awesome-imbalanced-learning">
-    <img src="https://img.shields.io/badge/ZhiningLiu1998-AwesomeIL-orange">
+    <img src="https://img.shields.io/badge/Imbalanced-Learning-orange">
+  </a>
+  <a href="https://github.com/ZhiningLiu1998/awesome-imbalanced-learning/graphs/traffic">
+    <img src="https://visitor-badge.glitch.me/badge?page_id=ZhiningLiu1998.awesome-imbalanced-learning&left_text=Hi!%20visitors">
   </a>
   <img src="https://img.shields.io/github/stars/ZhiningLiu1998/awesome-imbalanced-learning">
   <img src="https://img.shields.io/github/forks/ZhiningLiu1998/awesome-imbalanced-learning">
@@ -15,11 +20,11 @@
   <img src="https://img.shields.io/github/license/ZhiningLiu1998/awesome-imbalanced-learning">
 </p>
 
-**A curated list of awesome imbalanced learning papers, codes, frameworks and libraries.**
+<!-- **A curated list of imbalanced learning papers, codes, frameworks and libraries.** -->
 
-**Class-imbalance** (also known as the long-tail problem) is the fact that the classes are not represented equally in a classification problem, which is quite common in practice. For instance, fraud detection, prediction of rare adverse drug reactions and prediction gene families. Failure to account for the class imbalance often causes inaccurate and decreased predictive performance of many classification algorithms. Imbalanced learning aims to tackle the class imbalance problem to learn an unbiased model from imbalanced data.
+**Class-imbalance (also known as the long-tail problem)** is the fact that the classes are not represented equally in a classification problem, which is quite common in practice. For instance, fraud detection, prediction of rare adverse drug reactions and prediction gene families. Failure to account for the class imbalance often causes inaccurate and decreased predictive performance of many classification algorithms. **Imbalanced learning aims to tackle the class imbalance problem to learn an unbiased model from imbalanced data.**
 
-Inspired by [awesome-machine-learning](https://github.com/josephmisiti/awesome-machine-learning). **Contributions are welcomed!**
+**Inspired by [awesome-machine-learning](https://github.com/josephmisiti/awesome-machine-learning). Contributions are welcomed!**
 
 - Frameworks and libraries are grouped by *programming language*.
 - Research papers are grouped by *research field*.
@@ -30,17 +35,17 @@ Inspired by [awesome-machine-learning](https://github.com/josephmisiti/awesome-m
 <font color='red'>What's new: </font>
 </h3>
 
-- [12/2021] Add papers from NeurIPS.
+- [12/2021] Add 7 papers (4 with code) from NeurIPS.
 - [10/2021] Add papers from ICCV.
 - [08/2021] Add papers on cost-sensitive ensemble learning.
-- [05/2021] Add a scikit-learn-like package [imbalanced-ensemble](https://github.com/ZhiningLiu1998/imbalanced-ensemble) [[Github](https://github.com/ZhiningLiu1998/imbalanced-ensemble)][[Documentation](https://imbalanced-ensemble.readthedocs.io/)].
+- [05/2021] Add a package [imbalanced-ensemble](https://github.com/ZhiningLiu1998/imbalanced-ensemble) [[Github](https://github.com/ZhiningLiu1998/imbalanced-ensemble)][[Documentation](https://imbalanced-ensemble.readthedocs.io/)].
 - [05/2021] Add papers from ICLR/CVPR/WSDM/TKDE/TNNLS.
 - <details>
   <summary>More</summary>
       <LI> [11/2020] Add papers from NeurIPS/ICLR. <br>
   </details>    
 
-**Disclosure:** Zhining Liu is an author on the following works: [imbalanced-ensemble](https://github.com/ZhiningLiu1998/imbalanced-ensemble), [Self-paced Ensemble](https://github.com/ZhiningLiu1998/self-paced-ensemble), [MESA](https://github.com/ZhiningLiu1998/mesa).
+**Disclosure:** Zhining Liu is an author on the following works: **[imbalanced-ensemble](https://github.com/ZhiningLiu1998/imbalanced-ensemble), [Self-paced Ensemble](https://github.com/ZhiningLiu1998/self-paced-ensemble), [MESA](https://github.com/ZhiningLiu1998/mesa)**.
 
 # Table of Contents
 
