@@ -11,15 +11,15 @@
   <a href="https://github.com/ZhiningLiu1998/awesome-imbalanced-learning">
     <img src="https://img.shields.io/badge/Imbalanced-Learning-orange">
   </a>
-  <a href="https://github.com/ZhiningLiu1998/awesome-imbalanced-learning/graphs/traffic">
-    <img src="https://visitor-badge.glitch.me/badge?page_id=ZhiningLiu1998.awesome-imbalanced-learning&left_text=Hi!%20visitors">
-  </a>
-  <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-<img src="https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square">
-<!-- ALL-CONTRIBUTORS-BADGE:END -->
   <img src="https://img.shields.io/github/stars/ZhiningLiu1998/awesome-imbalanced-learning">
   <img src="https://img.shields.io/github/forks/ZhiningLiu1998/awesome-imbalanced-learning">
   <img src="https://img.shields.io/github/issues/ZhiningLiu1998/awesome-imbalanced-learning">
+  <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+<a href="https://github.com/ZhiningLiu1998/awesome-imbalanced-learning#contributors-"><img src="https://img.shields.io/badge/all_contributors-2-orange.svg"></a>
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
+  <a href="https://github.com/ZhiningLiu1998/awesome-imbalance d-learning/graphs/traffic">
+    <img src="https://visitor-badge.glitch.me/badge?page_id=ZhiningLiu1998.awesome-imbalanced-learning&left_text=Hi!%20visitors">
+  </a>
   <img src="https://img.shields.io/github/license/ZhiningLiu1998/awesome-imbalanced-learning">
 </p>
 
@@ -92,6 +92,7 @@
     - [*Algorithms & Utilities & Jupyter Notebooks*](#algorithms--utilities--jupyter-notebooks)
     - [*Paper list*](#paper-list)
     - [*Slides*](#slides)
+  - [Contributors ✨](#contributors-)
 
 
 # Frameworks and Libraries
