@@ -1,6 +1,6 @@
 <!-- <h1 align="center"> Awesome Imbalanced Learning </h1> -->
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+<img src="https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square">
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 <!-- ![](https://raw.githubusercontent.com/ZhiningLiu1998/figures/master/awesome-imbalanced-learning/awesome_imbalanced_learning_header.png) -->
@@ -489,7 +489,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="http://zhiningliu.com"><img src="https://avatars.githubusercontent.com/u/26108487?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Zhining Liu</b></sub></a><br /><a href="https://github.com/ZhiningLiu1998/awesome-imbalanced-learning/commits?author=ZhiningLiu1998" title="Code">💻</a> <a href="#maintenance-ZhiningLiu1998" title="Maintenance">🚧</a></td>
+    <td align="center"><a href="http://zhiningliu.com"><img src="https://avatars.githubusercontent.com/u/26108487?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Zhining Liu</b></sub></a><br /><a href="https://github.com/ZhiningLiu1998/awesome-imbalanced-learning/commits?author=ZhiningLiu1998" title="Code">💻</a> <a href="#maintenance-ZhiningLiu1998" title="Maintenance">🚧</a> <a href="#translation-ZhiningLiu1998" title="Translation">🌍</a></td>
   </tr>
 </table>
 
