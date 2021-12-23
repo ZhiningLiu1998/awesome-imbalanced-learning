@@ -1,7 +1,4 @@
 <!-- <h1 align="center"> Awesome Imbalanced Learning </h1> -->
-<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-<img src="https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square">
-<!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 <!-- ![](https://raw.githubusercontent.com/ZhiningLiu1998/figures/master/awesome-imbalanced-learning/awesome_imbalanced_learning_header.png) -->
 
@@ -17,6 +14,9 @@
   <a href="https://github.com/ZhiningLiu1998/awesome-imbalanced-learning/graphs/traffic">
     <img src="https://visitor-badge.glitch.me/badge?page_id=ZhiningLiu1998.awesome-imbalanced-learning&left_text=Hi!%20visitors">
   </a>
+  <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+  <img src="https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square">
+  <!-- ALL-CONTRIBUTORS-BADGE:END -->
   <img src="https://img.shields.io/github/stars/ZhiningLiu1998/awesome-imbalanced-learning">
   <img src="https://img.shields.io/github/forks/ZhiningLiu1998/awesome-imbalanced-learning">
   <img src="https://img.shields.io/github/issues/ZhiningLiu1998/awesome-imbalanced-learning">
