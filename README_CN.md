@@ -23,11 +23,15 @@
   <img src="https://img.shields.io/github/license/ZhiningLiu1998/awesome-imbalanced-learning">
 </p>
 
+<h3 align="center"><b>
+  语言: [<a href="https://github.com/ZhiningLiu1998/awesome-imbalanced-learning">English</a>] [<a href="https://github.com/ZhiningLiu1998/awesome-imbalanced-learning/blob/master/README_CN.md">中文</a>]
+</b></h3>
+
 <!-- **A curated list of imbalanced learning papers, codes, frameworks and libraries.** -->
 
 **类别不平衡**（又称**长尾问题**）是指在分类问题中，类别之间的表示质量/样本数量不平等。类别不平衡在实践中广泛存在，例如金融欺诈检测、入侵检测、医疗辅助诊断等罕见模式识别任务。类的不平衡往往会导致传统机器学习算法的预测性能下降。类别不平衡学习旨在解决这一问题，即从不平衡的数据中学习一个无偏的预测模型。
 
-**本项目受[awesome-machine-learning](https://github.com/josephmisiti/awesome-machine-learning) 启发。在本列表中：**
+**本项目受 [awesome-machine-learning](https://github.com/josephmisiti/awesome-machine-learning) 启发。在本列表中：**
 
 - **框架** 和 **库** 按照 *编程语言* 分组。
 - **研究论文** 按照 *研究领域* 分组。
@@ -36,7 +40,8 @@
 
 **提醒：**
 - ⭐ **如果此项目对您有帮助，请点一个STAR~** ⭐
--  **贡献：** 如果您发现有任何不正确的、不合适的、过时的内容，请考虑open issue/PR。您的贡献将被记录在[Contributor](https://github.com/ZhiningLiu1998/awesome-imbalanced-learning#contributors-)一节中！
+- 如果您发现有任何不正确的、不合适的、过时的内容，请考虑open issue/PR。
+- 我们非常感谢任何可能的帮助，[Contributors✨](https://github.com/ZhiningLiu1998/awesome-imbalanced-learning#contributors-)一节中记录了所有贡献者！
 
 <h3>
 <font color='red'>What's new: </font>
@@ -84,13 +89,13 @@
 # 目录
 
 - [目录](#目录)
-- [框架与库](#框架与库)
+- [框架与库 | Frameworks and Libraries](#框架与库--frameworks-and-libraries)
     - [Python](#python)
     - [R](#r)
     - [Java](#java)
     - [Scalar](#scalar)
     - [Julia](#julia)
-- [研究论文](#研究论文)
+- [研究论文 | Research Papers](#研究论文--research-papers)
   - [综述 | Surveys](#综述--surveys)
   - [集成学习 | Ensemble Learning](#集成学习--ensemble-learning)
       - [通用集成框架 | *General ensemble*](#通用集成框架--general-ensemble)
@@ -126,7 +131,7 @@
 - [Contributors ✨](#contributors-)
 
 
-# 框架与库
+# 框架与库 | Frameworks and Libraries
 
 ### Python
 - [**imbalanced-ensemble**](https://imbalanced-ensemble.readthedocs.io/) [[**Github**](https://github.com/ZhiningLiu1998/imbalanced-ensemble)][[**Documentation**](https://imbalanced-ensemble.readthedocs.io/)][[**Gallery**](https://imbalanced-ensemble.readthedocs.io/en/latest/auto_examples/index.html#)] 
@@ -164,7 +169,7 @@
 ### Julia
 - [**smote_variants**](https://smote-variants.readthedocs.io/en/latest/) [[**Documentation**](https://smote-variants.readthedocs.io/en/latest/)][[**Github**](https://github.com/analyticalmindsltd/smote_variants)] - A collection of 85 minority ***over-sampling*** techniques for imbalanced learning with multi-class oversampling and model selection features (All writen in Python, also support R and Julia).
 
-# 研究论文
+# 研究论文 | Research Papers
 
 ## 综述 | Surveys
 

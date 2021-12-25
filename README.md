@@ -23,6 +23,10 @@
   <img src="https://img.shields.io/github/license/ZhiningLiu1998/awesome-imbalanced-learning">
 </p>
 
+<h3 align="center"><b>
+  Language: [<a href="https://github.com/ZhiningLiu1998/awesome-imbalanced-learning">English</a>] [<a href="https://github.com/ZhiningLiu1998/awesome-imbalanced-learning/blob/master/README_CN.md">中文</a>]
+</b></h3>
+
 <!-- **A curated list of imbalanced learning papers, codes, frameworks and libraries.** -->
 
 **Class-imbalance (also known as the long-tail problem)** is the fact that the classes are not represented equally in a classification problem, which is quite common in practice. For instance, fraud detection, prediction of rare adverse drug reactions and prediction gene families. Failure to account for the class imbalance often causes inaccurate and decreased predictive performance of many classification algorithms. **Imbalanced learning aims to tackle the class imbalance problem to learn an unbiased model from imbalanced data.**
@@ -36,7 +40,8 @@
 
 **Note:**
 - ⭐ **Please leave a <font color='orange'>STAR</font> if you like this project!** ⭐
--  **Contributing:** If you find any <font color='red'>incorrect</font> / <font color='red'>inappropriate</font> / <font color='red'>outdated</font> content, please kindly consider opening an issue or a PR. We would greatly appreciate your contribution to this list!
+- If you find any <font color='red'>incorrect</font> / <font color='red'>inappropriate</font> / <font color='red'>outdated</font> content, please kindly consider opening an issue or a PR. 
+- We would greatly appreciate your contribution to this list, and you will appear in the [contributors✨](#contributors-)!
 
 <h3>
 <font color='red'>What's new: </font>
