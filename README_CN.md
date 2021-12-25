@@ -25,18 +25,18 @@
 
 <!-- **A curated list of imbalanced learning papers, codes, frameworks and libraries.** -->
 
-**Class-imbalance (also known as the long-tail problem)** is the fact that the classes are not represented equally in a classification problem, which is quite common in practice. For instance, fraud detection, prediction of rare adverse drug reactions and prediction gene families. Failure to account for the class imbalance often causes inaccurate and decreased predictive performance of many classification algorithms. **Imbalanced learning aims to tackle the class imbalance problem to learn an unbiased model from imbalanced data.**
+**类别不平衡**（又称**长尾问题**）是指在分类问题中，类别之间的表示质量/样本数量不平等。类别不平衡在实践中广泛存在，例如金融欺诈检测、入侵检测、医疗辅助诊断等罕见模式识别任务。类的不平衡往往会导致传统机器学习算法的预测性能下降。类别不平衡学习旨在解决这一问题，即从不平衡的数据中学习一个无偏的预测模型。
 
-**Inspired by [awesome-machine-learning](https://github.com/josephmisiti/awesome-machine-learning). In this repository:**
+**本项目受[awesome-machine-learning](https://github.com/josephmisiti/awesome-machine-learning) 启发。在本列表中：**
 
-- **Frameworks** and **libraries** are grouped by *programming language*.
-- **Research papers** are grouped by *research field*.
-- There are numerous papers in this field of research, so this list is not intended to be exhaustive. 
-- We aim to keep only the "awesome" works that either *have a good impact* or have been *published in **reputed top conferences/journals***.
+- **框架** 和 **库** 按照 *编程语言* 分组。
+- **研究论文** 按照 *研究领域* 分组。
+- 这个领域中已经有非常多的论文发表，所以本列表并不旨在详尽无遗。
+- 本列表主要收录那些 *有良好影响力* 或者发表在 *知名的顶级会议/期刊* 上的工作。
 
-**Note:**
-- ⭐ **Please leave a <font color='orange'>STAR</font> if you like this project!** ⭐
--  **Contributing:** If you find any <font color='red'>incorrect</font> / <font color='red'>inappropriate</font> / <font color='red'>outdated</font> content, please kindly consider opening an issue or a PR. We would greatly appreciate your contribution to this list!
+**提醒：**
+- ⭐ **如果此项目对您有帮助，请点一个STAR~** ⭐
+-  **贡献：** 如果您发现有任何不正确的、不合适的、过时的内容，请考虑open issue/PR。您的贡献将被记录在[Contributor](https://github.com/ZhiningLiu1998/awesome-imbalanced-learning#contributors-)一节中！
 
 <h3>
 <font color='red'>What's new: </font>
@@ -52,9 +52,9 @@
       <LI> [11/2020] Add papers from NeurIPS/ICLR. <br>
   </details>    
 
-<!-- **Disclosure:** Zhining Liu is an author on the following works: **[imbalanced-ensemble](https://github.com/ZhiningLiu1998/imbalanced-ensemble), [Self-paced Ensemble](https://github.com/ZhiningLiu1998/self-paced-ensemble), [MESA](https://github.com/ZhiningLiu1998/mesa)**.  -->
+<!-- **Disclosure:** Zhining Liu is an author on the following works: **[imbalanced-ensemble](https://github.com/ZhiningLiu1998/imbalanced-ensemble), [Self-paced Ensemble](https://github.com/ZhiningLiu1998/self-paced-ensemble), [MESA](https://github.com/ZhiningLiu1998/mesa)**. -->
 
-**Check out [Zhining](https://github.com/ZhiningLiu1998)'s other open-source projects!**  
+**查看 [我](https://github.com/ZhiningLiu1998) 的其他开源机器学习项目！**  
 <table style="font-size:15px;">
   <tr>
     <!-- <td align="center"><a href="http://zhiningliu.com"><img src="https://avatars.githubusercontent.com/u/26108487?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Zhining Liu</b></sub></a></td> -->
@@ -81,52 +81,52 @@
   </tr>
 </table>
 
-# Table of Contents
+# 目录
 
-- [Table of Contents](#table-of-contents)
-- [Frameworks and Libraries](#frameworks-and-libraries)
+- [目录](#目录)
+- [框架与库](#框架与库)
     - [Python](#python)
     - [R](#r)
     - [Java](#java)
     - [Scalar](#scalar)
     - [Julia](#julia)
-- [Research Papers](#research-papers)
-  - [Surveys](#surveys)
-  - [Ensemble Learning](#ensemble-learning)
-      - [*General ensemble*](#general-ensemble)
-      - [*Boosting-based*](#boosting-based)
-      - [*Bagging-based*](#bagging-based)
-      - [*Cost-sensitive ensemble*](#cost-sensitive-ensemble)
-  - [Data resampling](#data-resampling)
-      - [*Over-sampling*](#over-sampling)
-      - [*Under-sampling*](#under-sampling)
-      - [*Hybrid-sampling*](#hybrid-sampling)
-  - [Cost-sensitive Learning](#cost-sensitive-learning)
-  - [Deep Learning](#deep-learning)
-      - [*Surveys*](#surveys-1)
-      - [*Hard example mining*](#hard-example-mining)
-      - [*Loss function engineering*](#loss-function-engineering)
-      - [*Meta-learning*](#meta-learning)
-      - [*Representation Learning*](#representation-learning)
-      - [*Posterior Recalibration*](#posterior-recalibration)
-      - [*Semi/Self-supervised Learning*](#semiself-supervised-learning)
-      - [*Curriculum Learning*](#curriculum-learning)
-      - [*Two-phase Training*](#two-phase-training)
-      - [*Network Architecture*](#network-architecture)
-      - [*Graph Neural Networks*](#graph-neural-networks)
-      - [*Deep Generative Model*](#deep-generative-model)
-      - [*Imbalanced Regression*](#imbalanced-regression)
-  - [Anomaly Detection](#anomaly-detection)
-- [Miscellaneous](#miscellaneous)
-  - [Datasets](#datasets)
-  - [Github Repositories](#github-repositories)
-    - [*Algorithms & Utilities & Jupyter Notebooks*](#algorithms--utilities--jupyter-notebooks)
-    - [*Paper list*](#paper-list)
-    - [*Slides*](#slides)
+- [研究论文](#研究论文)
+  - [综述 | Surveys](#综述--surveys)
+  - [集成学习 | Ensemble Learning](#集成学习--ensemble-learning)
+      - [通用集成框架 | *General ensemble*](#通用集成框架--general-ensemble)
+      - [基于 Boosting 的方法 | *Boosting-based*](#基于-boosting-的方法--boosting-based)
+      - [基于 Bagging 的方法 | *Bagging-based*](#基于-bagging-的方法--bagging-based)
+      - [基于代价敏感学习的方法 | *Cost-sensitive ensemble*](#基于代价敏感学习的方法--cost-sensitive-ensemble)
+  - [数据重采样 | Data resampling](#数据重采样--data-resampling)
+      - [过采样 | *Over-sampling*](#过采样--over-sampling)
+      - [欠采样 | *Under-sampling*](#欠采样--under-sampling)
+      - [混合采样 | *Hybrid-sampling*](#混合采样--hybrid-sampling)
+  - [代价敏感学习 | Cost-sensitive Learning](#代价敏感学习--cost-sensitive-learning)
+  - [深度学习 | Deep Learning](#深度学习--deep-learning)
+      - [综述 | *Surveys*](#综述--surveys-1)
+      - [难例挖掘 | *Hard example mining*](#难例挖掘--hard-example-mining)
+      - [损失函数设计 | *Loss function engineering*](#损失函数设计--loss-function-engineering)
+      - [元学习 | *Meta-learning*](#元学习--meta-learning)
+      - [表示学习 | *Representation Learning*](#表示学习--representation-learning)
+      - [后验概率校准 | *Posterior Recalibration*](#后验概率校准--posterior-recalibration)
+      - [半监督/自监督学习 | *Semi/Self-supervised Learning*](#半监督自监督学习--semiself-supervised-learning)
+      - [课程学习 | *Curriculum Learning*](#课程学习--curriculum-learning)
+      - [双阶段训练 | *Two-phase Training*](#双阶段训练--two-phase-training)
+      - [网络结构 | *Network Architecture*](#网络结构--network-architecture)
+      - [图神经网络 | *Graph Neural Networks*](#图神经网络--graph-neural-networks)
+      - [深度生成网络 | *Deep Generative Model*](#深度生成网络--deep-generative-model)
+      - [不平衡回归 | *Imbalanced Regression*](#不平衡回归--imbalanced-regression)
+  - [异常检测 | Anomaly Detection](#异常检测--anomaly-detection)
+- [杂项 | Miscellaneous](#杂项--miscellaneous)
+  - [数据集 | Datasets](#数据集--datasets)
+  - [Github 项目 | Github Repositories](#github-项目--github-repositories)
+    - [算法实现 & 实用程序 & 教程 | *Algorithms & Utilities & Jupyter Notebooks*](#算法实现--实用程序--教程--algorithms--utilities--jupyter-notebooks)
+    - [论文列表 | *Paper list*](#论文列表--paper-list)
+    - [幻灯片 | *Slides*](#幻灯片--slides)
 - [Contributors ✨](#contributors-)
 
 
-# Frameworks and Libraries
+# 框架与库
 
 ### Python
 - [**imbalanced-ensemble**](https://imbalanced-ensemble.readthedocs.io/) [[**Github**](https://github.com/ZhiningLiu1998/imbalanced-ensemble)][[**Documentation**](https://imbalanced-ensemble.readthedocs.io/)][[**Gallery**](https://imbalanced-ensemble.readthedocs.io/en/latest/auto_examples/index.html#)] 
@@ -164,9 +164,9 @@
 ### Julia
 - [**smote_variants**](https://smote-variants.readthedocs.io/en/latest/) [[**Documentation**](https://smote-variants.readthedocs.io/en/latest/)][[**Github**](https://github.com/analyticalmindsltd/smote_variants)] - A collection of 85 minority ***over-sampling*** techniques for imbalanced learning with multi-class oversampling and model selection features (All writen in Python, also support R and Julia).
 
-# Research Papers
+# 研究论文
 
-## Surveys
+## 综述 | Surveys
 
 - **Learning from imbalanced data (IEEE TKDE, 2009, 6000+ citations) [[**Paper**](https://www.sci-hub.shop/10.1109/tkde.2008.239)]**
   - Highly cited, classic survey paper. It systematically reviewed the popular solutions, evaluation metrics, and challenging problems in future research in this area (as of 2009). 
@@ -177,9 +177,9 @@
 - **Learning from class-imbalanced data: Review of methods and applications (2017, 900+ citations) [[**Paper**](https://www.researchgate.net/publication/311977198_Learning_from_class-imbalanced_data_Review_of_methods_and_applications)]**
   - A recent exhaustive survey of imbalanced learning methods and applications, a total of 527 papers were included in this study. It provides several detailed taxonomies of existing methods and also the recent trend of this research area.
 
-## Ensemble Learning
+## 集成学习 | Ensemble Learning
 
-#### *General ensemble*
+#### 通用集成框架 | *General ensemble*
 <!-- - **General ensemble** -->
   
   - **Self-paced Ensemble (ICDE 2020, 20+ citations) [[**Paper**](https://arxiv.org/pdf/1909.03500v3.pdf)][[**Code**](https://github.com/ZhiningLiu1998/self-paced-ensemble)][[**Slides**](https://zhiningliu.com/files/ICDE_2020_self_paced_ensemble_slides.pdf)][[**Zhihu/知乎**](https://zhuanlan.zhihu.com/p/86891438)][[**PyPI**](https://pypi.org/project/self-paced-ensemble/)]**
@@ -194,7 +194,7 @@
     - BalanceCascade [[**Code**](https://github.com/ZhiningLiu1998/imbalanced-ensemble/blob/main/imbalanced_ensemble/ensemble/under_sampling/balance_cascade.py)]
   
 
-#### *Boosting-based*
+#### 基于 Boosting 的方法 | *Boosting-based*
 <!-- - **Boosting-based** -->
 
   - **AdaBoost (1995, 18700+ citations) [[**Paper**](https://sci2s.ugr.es/keel/pdf/algorithm/articulo/1997-JCSS-Schapire-A%20Decision-Theoretic%20Generalization%20of%20On-Line%20Learning%20(AdaBoost).pdf)][[**Code**](https://github.com/scikit-learn/scikit-learn/blob/95d4f0841/sklearn/ensemble/_weight_boosting.py#L285)]** - Adaptive Boosting with C4.5
@@ -213,7 +213,7 @@
   
   - **EUSBoost (2013, 210+ citations) [[**Paper**](https://sci2s.ugr.es/keel/pdf/algorithm/articulo/2013-galar-PR.pdf)]** - Evolutionary Under-sampling in Boosting
 
-#### *Bagging-based*
+#### 基于 Bagging 的方法 | *Bagging-based*
 <!-- - **Bagging-based** -->
 
   - **Bagging (1996, 20000+ citations) [[**Paper**](https://sci2s.ugr.es/keel/pdf/algorithm/articulo/1996-ML-Breiman-Bagging%20Predictors.pdf)][[**Code**](https://github.com/scikit-learn/scikit-learn/blob/95d4f0841/sklearn/ensemble/_bagging.py#L433)]** - Bagging predictor
@@ -223,7 +223,7 @@
     - **OverBagging** [[**Code**](https://github.com/ZhiningLiu1998/imbalanced-ensemble/blob/main/imbalanced_ensemble/ensemble/over_sampling/over_bagging.py)] 
     - **SMOTEBagging** [[**Code**](https://github.com/ZhiningLiu1998/imbalanced-ensemble/blob/main/imbalanced_ensemble/ensemble/over_sampling/smote_bagging.py)]
   
-#### *Cost-sensitive ensemble*
+#### 基于代价敏感学习的方法 | *Cost-sensitive ensemble*
 <!-- - **Cost-sensitive ensemble** -->
 
   - **AdaCost (ICML 1999, 800+ citations) [[**Paper**](https://www.researchgate.net/profile/Salvatore-Stolfo/publication/2628569_AdaCost_Misclassification_Cost-sensitive_Boosting/links/0fcfd50ca581d7016f000000/AdaCost-Misclassification-Cost-sensitive-Boosting.pdf)][[**Code**](https://github.com/ZhiningLiu1998/imbalanced-ensemble/blob/main/imbalanced_ensemble/ensemble/reweighting/adacost.py)]** - Misclassification Cost-sensitive boosting
@@ -232,9 +232,9 @@
   
   - **AsymBoost (NIPS 2001, 700+ citations) [[**Paper**](https://www.researchgate.net/profile/Michael-Jones-66/publication/2539888_Fast_and_Robust_Classification_using_Asymmetric_AdaBoost_and_a_Detector_Cascade/links/540731780cf23d9765a83ec1/Fast-and-Robust-Classification-using-Asymmetric-AdaBoost-and-a-Detector-Cascade.pdf)][[**Code**](https://github.com/ZhiningLiu1998/imbalanced-ensemble/blob/main/imbalanced_ensemble/ensemble/reweighting/asymmetric_boost.py)]** - Asymmetric AdaBoost and detector cascade
 
-## Data resampling
+## 数据重采样 | Data resampling
 
-#### *Over-sampling*
+#### 过采样 | *Over-sampling*
 <!-- - **Over-sampling** -->
 
   - **ROS [[**Code**](https://github.com/scikit-learn-contrib/imbalanced-learn/blob/master/imblearn/over_sampling/_random_over_sampler.py)]** - Random Over-sampling 
@@ -255,7 +255,7 @@
   
   > **NOTE:** See more over-sampling methods at [**smote-variants**](https://github.com/analyticalmindsltd/smote_variants#references).
 
-#### *Under-sampling*
+#### 欠采样 | *Under-sampling*
 <!-- - **Under-sampling** -->
 
   - **RUS [[**Code**](https://github.com/scikit-learn-contrib/imbalanced-learn/blob/master/imblearn/under_sampling/_prototype_selection/_random_under_sampler.py)]** - Random Under-sampling
@@ -278,7 +278,7 @@
   
   - **IHT (2014, 130+ citations) [[**Paper**](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.649.8727&rep=rep1&type=pdf)][[**Code**](https://github.com/scikit-learn-contrib/imbalanced-learn/blob/master/imblearn/under_sampling/_prototype_selection/_instance_hardness_threshold.py)]** - Instance Hardness Threshold 
 
-#### *Hybrid-sampling*
+#### 混合采样 | *Hybrid-sampling*
 <!-- - **Hybrid-sampling** -->
 
   - **A Study of the Behavior of Several Methods for Balancing Training Data (2004, 2000+ citations) [[**Paper**](https://www.researchgate.net/profile/Ronaldo-Prati/publication/220520041_A_Study_of_the_Behavior_of_Several_Methods_for_Balancing_machine_Learning_Training_Data/links/0d22cd91c989507054a2cf3b/A-Study-of-the-Behavior-of-Several-Methods-for-Balancing-machine-Learning-Training-Data.pdf)]**
@@ -290,7 +290,7 @@
   
   - **SMOTE-IPF (2015, 180+ citations) [[**Paper**](https://sci2s.ugr.es/sites/default/files/ficherosPublicaciones/1824_2015-INS-Saez.pdf)][[**Code**](https://smote-variants.readthedocs.io/en/latest/_modules/smote_variants/_smote_variants.html#SMOTE_IPF)]** - SMOTE with Iterative-Partitioning Filter
 
-## Cost-sensitive Learning
+## 代价敏感学习 | Cost-sensitive Learning
 
 - **CSC4.5 (2002, 420+ citations) [[**Paper**](https://www.sci-hub.shop/10.1109/tkde.2002.1000348)][[**Code(Java)**](https://github.com/SCI2SUGR/KEEL/blob/master/src/keel/Algorithms/ImbalancedClassification/CSMethods/C45CS/C45CS.java#L48)]** - An instance-weighting method to induce cost-sensitive trees
 
@@ -298,9 +298,9 @@
 
 - **CSNN (2005, 950+ citations) [[**Paper**](https://sci2s.ugr.es/keel/pdf/algorithm/articulo/2006%20-%20IEEE_TKDE%20-%20Zhou_Liu.pdf)][[**Code(Java)**](https://github.com/SCI2SUGR/KEEL/blob/master/src/keel/Algorithms/ImbalancedClassification/CSMethods/MLPerceptronBackpropCS/MLPerceptronBackpropCS.java#L49)]** - Training cost-sensitive neural networks with methods addressing the class imbalance problem.
 
-## Deep Learning
+## 深度学习 | Deep Learning
 
-#### *Surveys*
+#### 综述 | *Surveys*
 <!-- - **Surveys** -->
   
   - A systematic study of the class imbalance problem in convolutional neural networks (2018, 330+ citations) [[**Paper**](https://arxiv.org/pdf/1710.05381.pdf)]
@@ -309,12 +309,12 @@
     
     > **NOTE:** a recent comprehensive survey of the class imbalance problem in deep learning.
 
-#### *Hard example mining*
+#### 难例挖掘 | *Hard example mining*
 <!-- - **Hard example mining** -->
   
   - Training region-based object detectors with online hard example mining (CVPR 2016, 840+ citations) [[**Paper**](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Shrivastava_Training_Region-Based_Object_CVPR_2016_paper.pdf)][[**Code**](https://github.com/abhi2610/ohemh)] - In the later phase of NN training, only do gradient back-propagation for "hard examples" (i.e., with large loss value)
 
-#### *Loss function engineering*
+#### 损失函数设计 | *Loss function engineering*
 <!-- - **Loss function engineering** -->
   
   - Focal loss for dense object detection (ICCV 2017, 2600+ citations) [[**Paper**](http://10.187.70.31/openaccess.thecvf.com/content_ICCV_2017/papers/Lin_Focal_Loss_for_ICCV_2017_paper.pdf)][[**Code (detectron2)**](https://github.com/facebookresearch/detectron2)][[**Code (unofficial)**](https://github.com/clcarwin/focal_loss_pytorch)] - A uniform loss function that focuses training on a sparse set of hard examples to prevents the vast number of easy negatives from overwhelming the detector during training. 
@@ -338,7 +338,7 @@
 
   - Label-Imbalanced and Group-Sensitive Classification under Overparameterization (NeurIPS 2021) [[**Paper**](https://proceedings.neurips.cc//paper/2021/file/9dfcf16f0adbc5e2a55ef02db36bac7f-Paper.pdf)][[**Code**](https://github.com/orparask/VS-Loss)]
 
-#### *Meta-learning*
+#### 元学习 | *Meta-learning*
 <!-- - **Meta-learning** -->
 
   - Learning to model the tail (NIPS 2017, 70+ citations) [[**Paper**](http://10.187.70.33/papers.nips.cc/paper/7278-learning-to-model-the-tail.pdf)] - Transfer meta-knowledge from the data-rich classes in the head of the distribution to the data-poor classes in the tail.
@@ -356,7 +356,7 @@
   
     > **NOTE:** meta-learning-powered ensemble learning
 
-#### *Representation Learning*
+#### 表示学习 | *Representation Learning*
 <!-- - **Representation Learning** -->
 
   - Learning deep representation for imbalanced classification (CVPR 2016, 220+ citations) [[**Paper**](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Huang_Learning_Deep_Representation_CVPR_2016_paper.pdf)]
@@ -368,14 +368,14 @@
 
   - Supercharging Imbalanced Data Learning With Energy-based Contrastive Representation Transfer (NeurIPS 2021) [[**Paper**](https://proceedings.neurips.cc//paper/2021/file/b151ce4935a3c2807e1dd9963eda16d8-Paper.pdf)]
 
-#### *Posterior Recalibration*
+#### 后验概率校准 | *Posterior Recalibration*
 <!-- - **Posterior Recalibration** -->
   
   - Posterior Re-calibration for Imbalanced Datasets (NeurIPS 2020) [[**Paper**](https://arxiv.org/pdf/2010.11820.pdf)][[**Code**](https://github.com/GT-RIPL/UNO-IC)]
 
   - Long-tail learning via logit adjustment (ICLR 2021) [[**Paper**](https://arxiv.org/pdf/2007.07314v1.pdf)][[**Code**](https://github.com/google-research/google-research/tree/master/logit_adjustment)]
 
-#### *Semi/Self-supervised Learning*
+#### 半监督/自监督学习 | *Semi/Self-supervised Learning*
 <!-- - **Semi/Self-supervised Learning** -->
 
   - Rethinking the Value of Labels for Improving Class-Imbalanced Learning (NeurIPS 2020) [[**Paper**](https://arxiv.org/pdf/2006.07529.pdf)][[**Code**](https://github.com/YyzHarry/imbalanced-semi-self)][[**Video**](https://www.youtube.com/watch?v=XltXZ3OZvyI&feature=youtu.be)]
@@ -389,53 +389,53 @@
   - Improving Contrastive Learning on Imbalanced Data via Open-World Sampling (NeurIPS 2021) [[**Paper**](https://proceedings.neurips.cc//paper/2021/file/2f37d10131f2a483a8dd005b3d14b0d9-Paper.pdf)]
 
 
-#### *Curriculum Learning*
+#### 课程学习 | *Curriculum Learning*
 <!-- - **Curriculum Learning** -->
 
   - Dynamic Curriculum Learning for Imbalanced Data Classification (ICCV 2019) [[**Paper**](http://10.187.70.15/openaccess.thecvf.com/content_ICCV_2019/papers/Wang_Dynamic_Curriculum_Learning_for_Imbalanced_Data_Classification_ICCV_2019_paper.pdf)]
 
-#### *Two-phase Training*
+#### 双阶段训练 | *Two-phase Training*
 <!-- - **Two-phase Training** -->
 
   - Brain tumor segmentation with deep neural networks (2017, 1200+ citations) [[**Paper**](https://arxiv.org/pdf/1505.03540.pdf)][[**Code (unofficial)**](https://github.com/naldeborgh7575/brain_segmentation)]
 
     > Pre-training on balanced dataset, fine-tuning the last output layer before softmax on the original, imbalanced data.
 
-#### *Network Architecture*
+#### 网络结构 | *Network Architecture*
 <!-- - **Network Architecture** -->
 
   - BBN: Bilateral-Branch Network with Cumulative Learning for Long-Tailed Visual Recognition (CVPR 2020) [[**Paper**](https://arxiv.org/pdf/1912.02413.pdf)][[**Code**](https://github.com/Megvii-Nanjing/BBN)]
   
   - Class-Imbalanced Deep Learning via a Class-Balanced Ensemble (TNNLS 2021) [[**Paper**](https://ieeexplore.ieee.org/abstract/document/9416240)]
 
-#### *Graph Neural Networks*
+#### 图神经网络 | *Graph Neural Networks*
 <!-- - **Graph Neural Networks** -->
 
   - GraphSMOTE: Imbalanced Node Classification on Graphs with Graph Neural Networks (WSDM 2021) [[**Paper**](https://dl.acm.org/doi/pdf/10.1145/3437963.3441720)][[**Code**](https://github.com/TianxiangZhao/GraphSmote)]
   - Topology-Imbalance Learning for Semi-Supervised Node Classification (NeurIPS 2021) [[**Paper**](https://proceedings.neurips.cc//paper/2021/file/fa7cdfad1a5aaf8370ebeda47a1ff1c3-Paper.pdf)][[**Code**](https://github.com/victorchen96/renode)]
 
 
-#### *Deep Generative Model*
+#### 深度生成网络 | *Deep Generative Model*
 <!-- - **Deep Generative Model** -->
   
   - Deep Generative Model for Robust Imbalance Classification (CVPR 2020) [[**Paper**](https://openaccess.thecvf.com/content_CVPR_2020/papers/Wang_Deep_Generative_Model_for_Robust_Imbalance_Classification_CVPR_2020_paper.pdf)]
 
-#### *Imbalanced Regression*
+#### 不平衡回归 | *Imbalanced Regression*
 <!-- - **Imbalanced Regression** -->
   
   - Delving into Deep Imbalanced Regression (ICML 2021) [[**Paper**](https://arxiv.org/pdf/2102.09554.pdf)][[**Code**](https://github.com/YyzHarry/imbalanced-regression)][[**Video**](https://www.youtube.com/watch?v=grJGixofQRU)]
   
   - Density-based weighting for imbalanced regression (Machine Learning [J], 2021) [[**Paper**](https://link.springer.com/article/10.1007/s10994-021-06023-5)][[**Code**](https://github.com/SteiMi/density-based-weighting-for-imbalanced-regression)] 
 
-## Anomaly Detection
+## 异常检测 | Anomaly Detection
 
-- **Surveys**
+- 综述 | **Surveys**
 
   - Anomaly detection: A survey (ACM computing surveys, 2009, 9000+ citations) [[**Paper**](http://10.187.70.15/cinslab.com/wp-content/uploads/2019/03/xiaorong.pdf)]
   
   - A survey of network anomaly detection techniques (2017, 700+ citations) [[**Paper**](https://www.gta.ufrj.br/~alvarenga/files/CPE826/Ahmed2016-Survey.pdf)]
 
-- **Classification-based**
+- 基于分类的方法 | **Classification-based**
 
   - One-class SVMs for document classification (JMLR, 2001, 1300+ citations) [[**Paper**](http://10.187.70.31/www.jmlr.org/papers/volume2/manevitz01a/manevitz01a.pdf)]
   
@@ -447,9 +447,9 @@
   
   - Anomaly Detection with Robust Deep Autoencoders (KDD 2017, 170+ citations) [[**Paper**](https://pdfs.semanticscholar.org/c112/b06d3dac590b4cc111e5ec9c805d0b086c6e.pdf)]
 
-# Miscellaneous
+# 杂项 | Miscellaneous
 
-## Datasets
+## 数据集 | Datasets
 
 - **`imbalanced-learn` datasets**
 
@@ -490,9 +490,9 @@
   Link: https://github.com/gykovacs/mldb
 
 
-## Github Repositories
+## Github 项目 | Github Repositories
 
-### *Algorithms & Utilities & Jupyter Notebooks*
+### 算法实现 & 实用程序 & 教程 | *Algorithms & Utilities & Jupyter Notebooks*
 
   - [imbalanced-algorithms](https://github.com/dialnd/imbalanced-algorithms) - Python-based implementations of algorithms for learning on imbalanced data.
   
@@ -503,13 +503,13 @@
   - [Multi-class-with-imbalanced-dataset-classification](https://github.com/javaidnabi31/Multi-class-with-imbalanced-dataset-classification) - Perform multi-class classification on imbalanced 20-news-group dataset.
   - [Advanced Machine Learning with scikit-learn: Imbalanced classification and text data](https://github.com/amueller/ml-workshop-4-of-4) - Different approaches to feature selection, and resampling methods for imbalanced data.
 
-### *Paper list*
+### 论文列表 | *Paper list*
 
   - [Anomaly Detection Learning Resources](https://github.com/yzhao062/anomaly-detection-resources) by [yzhao062](https://github.com/yzhao062) - Anomaly detection related books, papers, videos, and toolboxes.
 
   - [Paper-list-on-Imbalanced-Time-series-Classification-with-Deep-Learning](https://github.com/danielgy/Paper-list-on-Imbalanced-Time-series-Classification-with-Deep-Learning) - Imbalanced Time-series Classification
 
-### *Slides*
+### 幻灯片 | *Slides*
 
   - [acm_imbalanced_learning](https://github.com/timgasser/acm_imbalanced_learning) - slides and code for the ACM Imbalanced Learning talk on 27th April 2016 in Austin, TX.
 
