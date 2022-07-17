@@ -393,6 +393,9 @@
 
   - Improving Contrastive Learning on Imbalanced Data via Open-World Sampling (NeurIPS 2021) [[**Paper**](https://proceedings.neurips.cc//paper/2021/file/2f37d10131f2a483a8dd005b3d14b0d9-Paper.pdf)]
 
+  - DASO: Distribution-Aware Semantics-Oriented Pseudo-label for Imbalanced Semi-Supervised Learning (CVPR 2022) [[**Paper**](https://arxiv.org/pdf/2106.05682)][[**Code**](https://github.com/ytaek-oh/daso)]
+
+ 
 
 #### *Curriculum Learning*
 <!-- - **Curriculum Learning** -->
