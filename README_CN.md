@@ -43,7 +43,7 @@
 - 如果您发现有任何不正确的、不合适的、过时的内容，请考虑open issue/PR。
 - 我们非常感谢任何可能的帮助，[Contributors✨](https://github.com/ZhiningLiu1998/awesome-imbalanced-learning#contributors-)一节中记录了所有贡献者！
 
-<h3>
+<!-- <h3>
 <font color='red'>What's new: </font>
 </h3>
 
@@ -55,7 +55,7 @@
 - <details>
   <summary>More</summary>
       <LI> [11/2020] Add papers from NeurIPS/ICLR. <br>
-  </details>    
+  </details>  -->
 
 <!-- **Disclosure:** Zhining Liu is an author on the following works: **[imbalanced-ensemble](https://github.com/ZhiningLiu1998/imbalanced-ensemble), [Self-paced Ensemble](https://github.com/ZhiningLiu1998/self-paced-ensemble), [MESA](https://github.com/ZhiningLiu1998/mesa)**. -->
 

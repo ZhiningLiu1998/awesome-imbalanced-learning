@@ -43,7 +43,7 @@
 - If you find any <font color='red'>incorrect</font> / <font color='red'>inappropriate</font> / <font color='red'>outdated</font> content, please kindly consider opening an issue or a PR. 
 - We would greatly appreciate your contribution to this list, and you will appear in the [contributors✨](#contributors-)!
 
-<h3>
+<!-- <h3>
 <font color='red'>What's new: </font>
 </h3>
 
@@ -55,7 +55,7 @@
 - <details>
   <summary>More</summary>
       <LI> [11/2020] Add papers from NeurIPS/ICLR. <br>
-  </details>    
+  </details> -->
 
 <!-- **Disclosure:** Zhining Liu is an author on the following works: **[imbalanced-ensemble](https://github.com/ZhiningLiu1998/imbalanced-ensemble), [Self-paced Ensemble](https://github.com/ZhiningLiu1998/self-paced-ensemble), [MESA](https://github.com/ZhiningLiu1998/mesa)**.  -->
 
