@@ -109,6 +109,7 @@
   - [代价敏感学习 | Cost-sensitive Learning](#代价敏感学习--cost-sensitive-learning)
   - [深度学习 | Deep Learning](#深度学习--deep-learning)
       - [综述 | *Surveys*](#综述--surveys-1)
+      - [图数据挖掘 | *Graph Neural Networks*](#图数据挖掘--graph-neural-networks)
       - [难例挖掘 | *Hard example mining*](#难例挖掘--hard-example-mining)
       - [损失函数设计 | *Loss function engineering*](#损失函数设计--loss-function-engineering)
       - [元学习 | *Meta-learning*](#元学习--meta-learning)
@@ -118,7 +119,6 @@
       - [课程学习 | *Curriculum Learning*](#课程学习--curriculum-learning)
       - [双阶段训练 | *Two-phase Training*](#双阶段训练--two-phase-training)
       - [网络结构 | *Network Architecture*](#网络结构--network-architecture)
-      - [图神经网络 | *Graph Neural Networks*](#图神经网络--graph-neural-networks)
       - [深度生成网络 | *Deep Generative Model*](#深度生成网络--deep-generative-model)
       - [不平衡回归 | *Imbalanced Regression*](#不平衡回归--imbalanced-regression)
   - [异常检测 | Anomaly Detection](#异常检测--anomaly-detection)
@@ -314,6 +314,14 @@
     
     > **NOTE:** a recent comprehensive survey of the class imbalance problem in deep learning.
 
+#### 图数据挖掘 | *Graph Neural Networks*
+<!-- - **Graph Neural Networks** -->
+
+  - GraphSMOTE: Imbalanced Node Classification on Graphs with Graph Neural Networks (WSDM 2021) [[**Paper**](https://dl.acm.org/doi/pdf/10.1145/3437963.3441720)][[**Code**](https://github.com/TianxiangZhao/GraphSmote)]
+  - Topology-Imbalance Learning for Semi-Supervised Node Classification (NeurIPS 2021) [[**Paper**](https://proceedings.neurips.cc//paper/2021/file/fa7cdfad1a5aaf8370ebeda47a1ff1c3-Paper.pdf)][[**Code**](https://github.com/victorchen96/renode)]
+  - GraphENS: Neighbor-Aware Ego Network Synthesis for Class-Imbalanced Node Classification (ICLR 2022) [[**Paper**](https://openreview.net/pdf?id=MXEl7i-iru)][[**Code**](https://github.com/JoonHyung-Park/GraphENS)]
+  - LTE4G: Long-Tail Experts for Graph Neural Networks (CIKM 2022) [[**Paper**](https://arxiv.org/pdf/2208.10205.pdf)][[**Code**](https://github.com/SukwonYun/LTE4G)]
+
 #### 难例挖掘 | *Hard example mining*
 <!-- - **Hard example mining** -->
   
@@ -413,13 +421,6 @@
   - BBN: Bilateral-Branch Network with Cumulative Learning for Long-Tailed Visual Recognition (CVPR 2020) [[**Paper**](https://arxiv.org/pdf/1912.02413.pdf)][[**Code**](https://github.com/Megvii-Nanjing/BBN)]
   
   - Class-Imbalanced Deep Learning via a Class-Balanced Ensemble (TNNLS 2021) [[**Paper**](https://ieeexplore.ieee.org/abstract/document/9416240)]
-
-#### 图神经网络 | *Graph Neural Networks*
-<!-- - **Graph Neural Networks** -->
-
-  - GraphSMOTE: Imbalanced Node Classification on Graphs with Graph Neural Networks (WSDM 2021) [[**Paper**](https://dl.acm.org/doi/pdf/10.1145/3437963.3441720)][[**Code**](https://github.com/TianxiangZhao/GraphSmote)]
-  - Topology-Imbalance Learning for Semi-Supervised Node Classification (NeurIPS 2021) [[**Paper**](https://proceedings.neurips.cc//paper/2021/file/fa7cdfad1a5aaf8370ebeda47a1ff1c3-Paper.pdf)][[**Code**](https://github.com/victorchen96/renode)]
-
 
 #### 深度生成网络 | *Deep Generative Model*
 <!-- - **Deep Generative Model** -->

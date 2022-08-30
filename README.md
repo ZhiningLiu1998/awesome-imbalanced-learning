@@ -109,6 +109,7 @@
   - [Cost-sensitive Learning](#cost-sensitive-learning)
   - [Deep Learning](#deep-learning)
       - [*Surveys*](#surveys-1)
+      - [*Graph Data Mining*](#graph-data-mining)
       - [*Hard example mining*](#hard-example-mining)
       - [*Loss function engineering*](#loss-function-engineering)
       - [*Meta-learning*](#meta-learning)
@@ -118,7 +119,6 @@
       - [*Curriculum Learning*](#curriculum-learning)
       - [*Two-phase Training*](#two-phase-training)
       - [*Network Architecture*](#network-architecture)
-      - [*Graph Neural Networks*](#graph-neural-networks)
       - [*Deep Generative Model*](#deep-generative-model)
       - [*Imbalanced Regression*](#imbalanced-regression)
   - [Anomaly Detection](#anomaly-detection)
@@ -314,6 +314,14 @@
     
     > **NOTE:** a recent comprehensive survey of the class imbalance problem in deep learning.
 
+#### *Graph Data Mining*
+<!-- - **Graph Neural Networks** -->
+
+  - GraphSMOTE: Imbalanced Node Classification on Graphs with Graph Neural Networks (WSDM 2021) [[**Paper**](https://dl.acm.org/doi/pdf/10.1145/3437963.3441720)][[**Code**](https://github.com/TianxiangZhao/GraphSmote)]
+  - Topology-Imbalance Learning for Semi-Supervised Node Classification (NeurIPS 2021) [[**Paper**](https://proceedings.neurips.cc//paper/2021/file/fa7cdfad1a5aaf8370ebeda47a1ff1c3-Paper.pdf)][[**Code**](https://github.com/victorchen96/renode)]
+  - GraphENS: Neighbor-Aware Ego Network Synthesis for Class-Imbalanced Node Classification (ICLR 2022) [[**Paper**](https://openreview.net/pdf?id=MXEl7i-iru)][[**Code**](https://github.com/JoonHyung-Park/GraphENS)]
+  - LTE4G: Long-Tail Experts for Graph Neural Networks (CIKM 2022) [[**Paper**](https://arxiv.org/pdf/2208.10205.pdf)][[**Code**](https://github.com/SukwonYun/LTE4G)]
+
 #### *Hard example mining*
 <!-- - **Hard example mining** -->
   
@@ -395,8 +403,6 @@
 
   - DASO: Distribution-Aware Semantics-Oriented Pseudo-label for Imbalanced Semi-Supervised Learning (CVPR 2022) [[**Paper**](https://arxiv.org/pdf/2106.05682)][[**Code**](https://github.com/ytaek-oh/daso)]
 
- 
-
 #### *Curriculum Learning*
 <!-- - **Curriculum Learning** -->
 
@@ -415,13 +421,6 @@
   - BBN: Bilateral-Branch Network with Cumulative Learning for Long-Tailed Visual Recognition (CVPR 2020) [[**Paper**](https://arxiv.org/pdf/1912.02413.pdf)][[**Code**](https://github.com/Megvii-Nanjing/BBN)]
   
   - Class-Imbalanced Deep Learning via a Class-Balanced Ensemble (TNNLS 2021) [[**Paper**](https://ieeexplore.ieee.org/abstract/document/9416240)]
-
-#### *Graph Neural Networks*
-<!-- - **Graph Neural Networks** -->
-
-  - GraphSMOTE: Imbalanced Node Classification on Graphs with Graph Neural Networks (WSDM 2021) [[**Paper**](https://dl.acm.org/doi/pdf/10.1145/3437963.3441720)][[**Code**](https://github.com/TianxiangZhao/GraphSmote)]
-  - Topology-Imbalance Learning for Semi-Supervised Node Classification (NeurIPS 2021) [[**Paper**](https://proceedings.neurips.cc//paper/2021/file/fa7cdfad1a5aaf8370ebeda47a1ff1c3-Paper.pdf)][[**Code**](https://github.com/victorchen96/renode)]
-
 
 #### *Deep Generative Model*
 <!-- - **Deep Generative Model** -->
