@@ -25,6 +25,15 @@
       "contributions": [
         "maintenance"
       ]
+    },
+    {
+      "login": "wjun0830",
+      "name": "WonJun Moon",
+      "avatar_url": "https://avatars.githubusercontent.com/u/31557552?v=4",
+      "profile": "https://wjun0830.github.io/",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
@@ -32,5 +41,6 @@
   "projectOwner": "ZhiningLiu1998",
   "repoType": "github",
   "repoHost": "https://github.com",
-  "skipCi": true
+  "skipCi": true,
+  "commitConvention": "angular"
 }
