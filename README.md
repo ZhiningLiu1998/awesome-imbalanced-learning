@@ -381,6 +381,8 @@
 
   - Supercharging Imbalanced Data Learning With Energy-based Contrastive Representation Transfer (NeurIPS 2021) [[**Paper**](https://proceedings.neurips.cc//paper/2021/file/b151ce4935a3c2807e1dd9963eda16d8-Paper.pdf)]
 
+  - Tailoring Self-Supervision for Supervised Learning (ECCV 2022) [[**Paper**](https://arxiv.org/abs/2207.10023)][[**Code**](https://github.com/wjun0830/Localizable-Rotation)]
+
 #### *Posterior Recalibration*
 <!-- - **Posterior Recalibration** -->
   
@@ -433,6 +435,12 @@
   - Delving into Deep Imbalanced Regression (ICML 2021) [[**Paper**](https://arxiv.org/pdf/2102.09554.pdf)][[**Code**](https://github.com/YyzHarry/imbalanced-regression)][[**Video**](https://www.youtube.com/watch?v=grJGixofQRU)]
   
   - Density-based weighting for imbalanced regression (Machine Learning [J], 2021) [[**Paper**](https://link.springer.com/article/10.1007/s10994-021-06023-5)][[**Code**](https://github.com/SteiMi/density-based-weighting-for-imbalanced-regression)] 
+
+#### *Augmentation*
+<!-- - **Augmentation** -->
+
+  - Minority-Oriented Vicinity Expansion with Attentive Aggregation for Video Long-Tailed Recognition (AAAI 2023) [[**Paper**](https://arxiv.org/abs/2211.13471)][[**Code**](https://github.com/wjun0830/MOVE)]
+
 
 ## Anomaly Detection
 
