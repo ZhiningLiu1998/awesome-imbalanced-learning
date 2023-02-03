@@ -43,19 +43,13 @@
 - If you find any <font color='red'>incorrect</font> / <font color='red'>inappropriate</font> / <font color='red'>outdated</font> content, please kindly consider opening an issue or a PR. 
 - We would greatly appreciate your contribution to this list, and you will appear in the [contributors✨](#contributors-)!
 
-<!-- <h3>
+<h3>
 <font color='red'>What's new: </font>
 </h3>
 
-- [12/2021] Add 7 papers (4 with code) from NeurIPS.
-- [10/2021] Add papers from ICCV.
-- [08/2021] Add papers on cost-sensitive ensemble learning.
-- [05/2021] Add a package [imbalanced-ensemble](https://github.com/ZhiningLiu1998/imbalanced-ensemble) [[Github](https://github.com/ZhiningLiu1998/imbalanced-ensemble)][[Documentation](https://imbalanced-ensemble.readthedocs.io/)].
-- [05/2021] Add papers from ICLR/CVPR/WSDM/TKDE/TNNLS.
-- <details>
-  <summary>More</summary>
-      <LI> [11/2020] Add papers from NeurIPS/ICLR. <br>
-  </details> -->
+- Updated section [*Graph Learning*](#graph-learning).
+- Add a package [imbalanced-ensemble](https://github.com/ZhiningLiu1998/imbalanced-ensemble) [[Github](https://github.com/ZhiningLiu1998/imbalanced-ensemble)][[Documentation](https://imbalanced-ensemble.readthedocs.io/)].
+
 
 <!-- **Disclosure:** Zhining Liu is an author on the following works: **[imbalanced-ensemble](https://github.com/ZhiningLiu1998/imbalanced-ensemble), [Self-paced Ensemble](https://github.com/ZhiningLiu1998/self-paced-ensemble), [MESA](https://github.com/ZhiningLiu1998/mesa)**.  -->
 
@@ -121,11 +115,12 @@
       - [*Network Architecture*](#network-architecture)
       - [*Deep Generative Model*](#deep-generative-model)
       - [*Imbalanced Regression*](#imbalanced-regression)
+      - [*Augmentation*](#augmentation)
   - [Anomaly Detection](#anomaly-detection)
 - [Miscellaneous](#miscellaneous)
   - [Datasets](#datasets)
   - [Github Repositories](#github-repositories)
-    - [*Algorithms & Utilities & Jupyter Notebooks*](#algorithms--utilities--jupyter-notebooks)
+    - [*Algorithms \& Utilities \& Jupyter Notebooks*](#algorithms--utilities--jupyter-notebooks)
     - [*Paper list*](#paper-list)
     - [*Slides*](#slides)
 - [Contributors ✨](#contributors-)
@@ -317,10 +312,12 @@
 #### *Graph Data Mining*
 <!-- - **Graph Neural Networks** -->
 
+  - TAM: Topology-Aware Margin Loss for Class-Imbalanced Node Classification (ICML 2022) [[**Paper**](https://proceedings.mlr.press/v162/song22a/song22a.pdf)][[**Code**](https://github.com/Jaeyun-Song/TAM)]
   - GraphSMOTE: Imbalanced Node Classification on Graphs with Graph Neural Networks (WSDM 2021) [[**Paper**](https://dl.acm.org/doi/pdf/10.1145/3437963.3441720)][[**Code**](https://github.com/TianxiangZhao/GraphSmote)]
   - Topology-Imbalance Learning for Semi-Supervised Node Classification (NeurIPS 2021) [[**Paper**](https://proceedings.neurips.cc//paper/2021/file/fa7cdfad1a5aaf8370ebeda47a1ff1c3-Paper.pdf)][[**Code**](https://github.com/victorchen96/renode)]
   - GraphENS: Neighbor-Aware Ego Network Synthesis for Class-Imbalanced Node Classification (ICLR 2022) [[**Paper**](https://openreview.net/pdf?id=MXEl7i-iru)][[**Code**](https://github.com/JoonHyung-Park/GraphENS)]
   - LTE4G: Long-Tail Experts for Graph Neural Networks (CIKM 2022) [[**Paper**](https://arxiv.org/pdf/2208.10205.pdf)][[**Code**](https://github.com/SukwonYun/LTE4G)]
+  - Multi-Class Imbalanced Graph Convolutional Network Learning (IJCAI 2020) [[**Paper**](https://par.nsf.gov/servlets/purl/10199469)]
 
 #### *Hard example mining*
 <!-- - **Hard example mining** -->
