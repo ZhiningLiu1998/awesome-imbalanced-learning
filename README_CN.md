@@ -125,7 +125,7 @@
 - [杂项 | Miscellaneous](#杂项--miscellaneous)
   - [数据集 | Datasets](#数据集--datasets)
   - [Github 项目 | Github Repositories](#github-项目--github-repositories)
-    - [算法实现 & 实用程序 & 教程 | *Algorithms & Utilities & Jupyter Notebooks*](#算法实现--实用程序--教程--algorithms--utilities--jupyter-notebooks)
+    - [算法实现 \& 实用程序 \& 教程 | *Algorithms \& Utilities \& Jupyter Notebooks*](#算法实现--实用程序--教程--algorithms--utilities--jupyter-notebooks)
     - [论文列表 | *Paper list*](#论文列表--paper-list)
     - [幻灯片 | *Slides*](#幻灯片--slides)
 - [Contributors ✨](#contributors-)
@@ -134,7 +134,7 @@
 # 框架与库 | Frameworks and Libraries
 
 ### Python
-- [**imbalanced-ensemble**](https://imbalanced-ensemble.readthedocs.io/) [[**Github**](https://github.com/ZhiningLiu1998/imbalanced-ensemble)][[**Documentation**](https://imbalanced-ensemble.readthedocs.io/)][[**Gallery**](https://imbalanced-ensemble.readthedocs.io/en/latest/auto_examples/index.html#)] 
+- [**imbalanced-ensemble**](https://imbalanced-ensemble.readthedocs.io/) [[**Github**](https://github.com/ZhiningLiu1998/imbalanced-ensemble)][[**Documentation**](https://imbalanced-ensemble.readthedocs.io/)][[**Gallery**](https://imbalanced-ensemble.readthedocs.io/en/latest/auto_examples/index.html#)][[**Paper**](https://arxiv.org/pdf/2111.12776.pdf)] 
   > **NOTE:** written in python, easy to use.
   - `imbalanced-ensemble` is a Python toolbox for quick implementing and deploying ***ensemble learning algorithms*** on class-imbalanced data. It is featured for: 
     - (i) Unified, easy-to-use APIs, detailed [documentation](https://imbalanced-ensemble.readthedocs.io/) and [examples](https://imbalanced-ensemble.readthedocs.io/en/latest/auto_examples/index.html#). 
@@ -144,7 +144,7 @@
     - (v) Full compatibility with other popular packages like [scikit-learn](https://scikit-learn.org/stable/) and [imbalanced-learn](https://imbalanced-learn.org/stable/).
   - Currently (v0.1.4), it includes more than 15 ensemble algorithms based on ***re-sampling*** and ***cost-sensitive learning*** (e.g., *SMOTEBoost/Bagging, RUSBoost/Bagging, AdaCost, EasyEnsemble, BalanceCascade, SelfPacedEnsemble*, ...).
 
-- [**imbalanced-learn**](https://imbalanced-learn.org/stable/) [[**Github**](https://github.com/scikit-learn-contrib/imbalanced-learn)][[**Documentation**](https://imbalanced-learn.org/stable/)][[**Paper**](http://10.187.70.34/www.jmlr.org/papers/volume18/16-365/16-365.pdf)] 
+- [**imbalanced-learn**](https://imbalanced-learn.org/stable/) [[**Github**](https://github.com/scikit-learn-contrib/imbalanced-learn)][[**Documentation**](https://imbalanced-learn.org/stable/)][[**Paper**](www.jmlr.org/papers/volume18/16-365/16-365.pdf)] 
   > **NOTE:** written in python, easy to use.
   - `imbalanced-learn` is a python package offering a number of ***re-sampling*** techniques commonly used in datasets showing strong between-class imbalance. It is compatible with [scikit-learn](https://scikit-learn.org/stable/) and is part of [scikit-learn-contrib](https://github.com/scikit-learn-contrib) projects. 
   - Currently (v0.8.0), it includes 21 different re-sampling techniques, including over-sampling, under-sampling and hybrid ones (e.g., *SMOTE, ADASYN, TomekLinks, NearMiss, OneSideSelection*, SMOTETomek, ...) 
@@ -252,9 +252,9 @@
   
   - **SPIDER (2008, 150+ citations) [[**Paper**](https://sci2s.ugr.es/keel/pdf/algorithm/congreso/stefanowski_selective_2008.pdf)][[**Code(Java)**](https://github.com/SCI2SUGR/KEEL/blob/master/src/keel/Algorithms/ImbalancedClassification/Resampling/SPIDER/SPIDER.java#L57)]** - Selective Preprocessing of Imbalanced Data
   
-  - **Safe-Level-SMOTE (2009, 370+ citations) [[**Paper**](http://10.187.70.30/150.214.190.154/keel/keel-dataset/pdfs/2009-Bunkhumpornpat-LNCS.pdf)][[**Code(Java)**](https://github.com/SCI2SUGR/KEEL/blob/master/src/keel/Algorithms/ImbalancedClassification/Resampling/Safe_Level_SMOTE/Safe_Level_SMOTE.java#L58)]** - Safe Level Synthetic Minority Over-sampling TEchnique
+  - **Safe-Level-SMOTE (2009, 370+ citations) [[**Paper**](150.214.190.154/keel/keel-dataset/pdfs/2009-Bunkhumpornpat-LNCS.pdf)][[**Code(Java)**](https://github.com/SCI2SUGR/KEEL/blob/master/src/keel/Algorithms/ImbalancedClassification/Resampling/Safe_Level_SMOTE/Safe_Level_SMOTE.java#L58)]** - Safe Level Synthetic Minority Over-sampling TEchnique
   
-  - **SVM-SMOTE (2009, 120+ citations) [[**Paper**](http://10.187.70.39/ousar.lib.okayama-u.ac.jp/files/public/1/19617/20160528004522391723/IWCIA2009_A1005.pdf)][[**Code**](https://github.com/scikit-learn-contrib/imbalanced-learn/blob/master/imblearn/over_sampling/_smote.py#L417)]** - SMOTE based on Support Vectors of SVM 
+  - **SVM-SMOTE (2009, 120+ citations) [[**Paper**](ousar.lib.okayama-u.ac.jp/files/public/1/19617/20160528004522391723/IWCIA2009_A1005.pdf)][[**Code**](https://github.com/scikit-learn-contrib/imbalanced-learn/blob/master/imblearn/over_sampling/_smote.py#L417)]** - SMOTE based on Support Vectors of SVM 
   
   - **MDO (2015, 150+ citations) [[**Paper**](https://ieeexplore.ieee.org/abstract/document/7163639)][[**Code**](https://github.com/analyticalmindsltd/smote_variants/blob/dedbc3d00b266954fedac0ae87775e1643bc920a/smote_variants/_smote_variants.py#L14513)]** - Mahalanobis Distance-based Over-sampling for *Multi-Class* imbalanced problems.
   
@@ -330,12 +330,12 @@
 #### 损失函数设计 | *Loss function engineering*
 <!-- - **Loss function engineering** -->
   
-  - Focal loss for dense object detection (ICCV 2017, 2600+ citations) [[**Paper**](http://10.187.70.31/openaccess.thecvf.com/content_ICCV_2017/papers/Lin_Focal_Loss_for_ICCV_2017_paper.pdf)][[**Code (detectron2)**](https://github.com/facebookresearch/detectron2)][[**Code (unofficial)**](https://github.com/clcarwin/focal_loss_pytorch)] - A uniform loss function that focuses training on a sparse set of hard examples to prevents the vast number of easy negatives from overwhelming the detector during training. 
+  - Focal loss for dense object detection (ICCV 2017, 2600+ citations) [[**Paper**](openaccess.thecvf.com/content_ICCV_2017/papers/Lin_Focal_Loss_for_ICCV_2017_paper.pdf)][[**Code (detectron2)**](https://github.com/facebookresearch/detectron2)][[**Code (unofficial)**](https://github.com/clcarwin/focal_loss_pytorch)] - A uniform loss function that focuses training on a sparse set of hard examples to prevents the vast number of easy negatives from overwhelming the detector during training. 
     > **NOTE:** elegant solution, high influence.
 
   - Training deep neural networks on imbalanced data sets (IJCNN 2016, 110+ citations) [[**Paper**](https://www.researchgate.net/publication/309778930_Training_deep_neural_networks_on_imbalanced_data_sets)] - Mean (square) false error that can equally capture classification errors from both the majority class and the minority class.
   
-  - Deep imbalanced attribute classification using visual attention aggregation (ECCV 2018, 30+ citation) [[**Paper**](http://10.187.70.39/openaccess.thecvf.com/content_ECCV_2018/papers/Nikolaos_Sarafianos_Deep_Imbalanced_Attribute_ECCV_2018_paper.pdf)][[**Code**](https://github.com/cvcode18/imbalanced_learning)]
+  - Deep imbalanced attribute classification using visual attention aggregation (ECCV 2018, 30+ citation) [[**Paper**](/openaccess.thecvf.com/content_ECCV_2018/papers/Nikolaos_Sarafianos_Deep_Imbalanced_Attribute_ECCV_2018_paper.pdf)][[**Code**](https://github.com/cvcode18/imbalanced_learning)]
   
   - Imbalanced deep learning by minority class incremental rectification (TPAMI 2018, 60+ citations) [[**Paper**](https://arxiv.org/pdf/1804.10851.pdf)] - Class Rectification Loss for minimizing the dominant effect of majority classes by discovering sparsely sampled boundaries of minority classes in an iterative batch-wise learning process.
   
@@ -343,7 +343,7 @@
   
   - Gradient harmonized single-stage detector (AAAI 2019, 40+ citations) [[**Paper**](https://arxiv.org/pdf/1811.05181.pdf)][[**Code**](https://github.com/libuyu/GHM_Detection)] - Compared to Focal Loss, which only down-weights "easy" negative examples, GHM also down-weights "very hard" examples as they are likely to be outliers. 
 
-  - Class-Balanced Loss Based on Effective Number of Samples (CVPR 2019, 70+ citations) [[**Paper**](http://10.187.70.34/openaccess.thecvf.com/content_CVPR_2019/papers/Cui_Class-Balanced_Loss_Based_on_Effective_Number_of_Samples_CVPR_2019_paper.pdf)][[**Code**](https://github.com/richardaecn/class-balanced-loss)] - a simple and generic class-reweighting mechanism based on Effective Number of Samples.
+  - Class-Balanced Loss Based on Effective Number of Samples (CVPR 2019, 70+ citations) [[**Paper**](openaccess.thecvf.com/content_CVPR_2019/papers/Cui_Class-Balanced_Loss_Based_on_Effective_Number_of_Samples_CVPR_2019_paper.pdf)][[**Code**](https://github.com/richardaecn/class-balanced-loss)] - a simple and generic class-reweighting mechanism based on Effective Number of Samples.
   
   - Influence-Balanced Loss for Imbalanced Visual Classification (ICCV 2021) [[**Paper**](https://arxiv.org/pdf/2110.02444.pdf)][[**Code**](https://github.com/pseulki/IB-Loss)]
 
@@ -354,9 +354,9 @@
 #### 元学习 | *Meta-learning*
 <!-- - **Meta-learning** -->
 
-  - Learning to model the tail (NIPS 2017, 70+ citations) [[**Paper**](http://10.187.70.33/papers.nips.cc/paper/7278-learning-to-model-the-tail.pdf)] - Transfer meta-knowledge from the data-rich classes in the head of the distribution to the data-poor classes in the tail.
+  - Learning to model the tail (NIPS 2017, 70+ citations) [[**Paper**](papers.nips.cc/paper/7278-learning-to-model-the-tail.pdf)] - Transfer meta-knowledge from the data-rich classes in the head of the distribution to the data-poor classes in the tail.
   
-  - Learning to reweight examples for robust deep learning (ICML 2018, 150+ citations) [[**Paper**](http://10.187.70.24/proceedings.mlr.press/v80/ren18a/ren18a.pdf)][[**Code**](https://github.com/uber-research/learning-to-reweight-examples)] - Implicitly learn a weight function to reweight the samples in gradient updates of DNN.
+  - Learning to reweight examples for robust deep learning (ICML 2018, 150+ citations) [[**Paper**](proceedings.mlr.press/v80/ren18a/ren18a.pdf)][[**Code**](https://github.com/uber-research/learning-to-reweight-examples)] - Implicitly learn a weight function to reweight the samples in gradient updates of DNN.
     > **NOTE:** representative work to solve the class imbalance problem through meta-learning.
 
   - Meta-weight-net: Learning an explicit mapping for sample weighting (NIPS 2019) [[**Paper**](https://papers.nips.cc/paper/8467-meta-weight-net-learning-an-explicit-mapping-for-sample-weighting.pdf)][[**Code**](https://github.com/xjtushujun/meta-weight-net)] - Explicitly learn a weight function (with an MLP as the function approximator) to reweight the samples in gradient updates of DNN.
@@ -406,7 +406,7 @@
 #### 课程学习 | *Curriculum Learning*
 <!-- - **Curriculum Learning** -->
 
-  - Dynamic Curriculum Learning for Imbalanced Data Classification (ICCV 2019) [[**Paper**](http://10.187.70.15/openaccess.thecvf.com/content_ICCV_2019/papers/Wang_Dynamic_Curriculum_Learning_for_Imbalanced_Data_Classification_ICCV_2019_paper.pdf)]
+  - Dynamic Curriculum Learning for Imbalanced Data Classification (ICCV 2019) [[**Paper**](openaccess.thecvf.com/content_ICCV_2019/papers/Wang_Dynamic_Curriculum_Learning_for_Imbalanced_Data_Classification_ICCV_2019_paper.pdf)]
 
 #### 双阶段训练 | *Two-phase Training*
 <!-- - **Two-phase Training** -->
@@ -438,13 +438,13 @@
 
 - 综述 | **Surveys**
 
-  - Anomaly detection: A survey (ACM computing surveys, 2009, 9000+ citations) [[**Paper**](http://10.187.70.15/cinslab.com/wp-content/uploads/2019/03/xiaorong.pdf)]
+  - Anomaly detection: A survey (ACM computing surveys, 2009, 9000+ citations) [[**Paper**](cinslab.com/wp-content/uploads/2019/03/xiaorong.pdf)]
   
   - A survey of network anomaly detection techniques (2017, 700+ citations) [[**Paper**](https://www.gta.ufrj.br/~alvarenga/files/CPE826/Ahmed2016-Survey.pdf)]
 
 - 基于分类的方法 | **Classification-based**
 
-  - One-class SVMs for document classification (JMLR, 2001, 1300+ citations) [[**Paper**](http://10.187.70.31/www.jmlr.org/papers/volume2/manevitz01a/manevitz01a.pdf)]
+  - One-class SVMs for document classification (JMLR, 2001, 1300+ citations) [[**Paper**](www.jmlr.org/papers/volume2/manevitz01a/manevitz01a.pdf)]
   
   - One-class Collaborative Filtering (ICDM 2008, 1000+ citations) [[**Paper**](https://cseweb.ucsd.edu/classes/fa17/cse291-b/reading/04781145.pdf)]
   
