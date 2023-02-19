@@ -8,12 +8,12 @@
 
 <p align="center">
   <img src="https://awesome.re/badge.svg">
-  <a href="https://github.com/ZhiningLiu1998/awesome-imbalanced-learning">
+  <!-- <a href="https://github.com/ZhiningLiu1998/awesome-imbalanced-learning">
     <img src="https://img.shields.io/badge/Imbalanced-Learning-orange">
-  </a>
+  </a> -->
   <img src="https://img.shields.io/github/stars/ZhiningLiu1998/awesome-imbalanced-learning">
   <img src="https://img.shields.io/github/forks/ZhiningLiu1998/awesome-imbalanced-learning">
-  <img src="https://img.shields.io/github/issues/ZhiningLiu1998/awesome-imbalanced-learning">
+  <!-- <img src="https://img.shields.io/github/issues/ZhiningLiu1998/awesome-imbalanced-learning"> -->
   <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 <a href="https://github.com/ZhiningLiu1998/awesome-imbalanced-learning#contributors-"><img src="https://img.shields.io/badge/all_contributors-3-orange.svg"></a>
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
@@ -21,6 +21,9 @@
     <img src="https://visitor-badge.glitch.me/badge?page_id=ZhiningLiu1998.awesome-imbalanced-learning&left_text=Hi!%20visitors">
   </a>
   <img src="https://img.shields.io/github/license/ZhiningLiu1998/awesome-imbalanced-learning">
+  <a href="https://github.com/ZhiningLiu1998/imbalanced-ensemble">
+    <img src="https://img.shields.io/badge/Package-Imbalanced--Ensemble-blueviolet">
+  </a>
 </p>
 
 <h3 align="center"><b>
@@ -83,52 +86,51 @@
 # Table of Contents
 
 - [Table of Contents](#table-of-contents)
-- [Frameworks and Libraries](#frameworks-and-libraries)
-    - [Python](#python)
-    - [R](#r)
-    - [Java](#java)
-    - [Scalar](#scalar)
-    - [Julia](#julia)
-- [Research Papers](#research-papers)
-  - [Surveys](#surveys)
-  - [Ensemble Learning](#ensemble-learning)
-      - [*General ensemble*](#general-ensemble)
-      - [*Boosting-based*](#boosting-based)
-      - [*Bagging-based*](#bagging-based)
-      - [*Cost-sensitive ensemble*](#cost-sensitive-ensemble)
-  - [Data resampling](#data-resampling)
-      - [*Over-sampling*](#over-sampling)
-      - [*Under-sampling*](#under-sampling)
-      - [*Hybrid-sampling*](#hybrid-sampling)
-  - [Cost-sensitive Learning](#cost-sensitive-learning)
-  - [Deep Learning](#deep-learning)
-      - [*Surveys*](#surveys-1)
-      - [*Graph Data Mining*](#graph-data-mining)
-      - [*Hard example mining*](#hard-example-mining)
-      - [*Loss function engineering*](#loss-function-engineering)
-      - [*Meta-learning*](#meta-learning)
-      - [*Representation Learning*](#representation-learning)
-      - [*Posterior Recalibration*](#posterior-recalibration)
-      - [*Semi/Self-supervised Learning*](#semiself-supervised-learning)
-      - [*Curriculum Learning*](#curriculum-learning)
-      - [*Two-phase Training*](#two-phase-training)
-      - [*Network Architecture*](#network-architecture)
-      - [*Deep Generative Model*](#deep-generative-model)
-      - [*Imbalanced Regression*](#imbalanced-regression)
-      - [*Augmentation*](#augmentation)
-  - [Anomaly Detection](#anomaly-detection)
-- [Miscellaneous](#miscellaneous)
-  - [Datasets](#datasets)
-  - [Github Repositories](#github-repositories)
-    - [*Algorithms \& Utilities \& Jupyter Notebooks*](#algorithms--utilities--jupyter-notebooks)
-    - [*Paper list*](#paper-list)
-    - [*Slides*](#slides)
+- [1. Frameworks and Libraries](#1-frameworks-and-libraries)
+    - [1.1 Python](#11-python)
+    - [1.2 R](#12-r)
+    - [1.3 Java](#13-java)
+    - [1.4 Scalar](#14-scalar)
+    - [1.5 Julia](#15-julia)
+- [2. Research Papers](#2-research-papers)
+  - [2.1 Surveys](#21-surveys)
+  - [2.2 Ensemble Learning](#22-ensemble-learning)
+      - [2.2.1 *General ensemble*](#221-general-ensemble)
+      - [2.2.2 *Boosting-based*](#222-boosting-based)
+      - [2.2.3 *Bagging-based*](#223-bagging-based)
+      - [2.2.4 *Cost-sensitive ensemble*](#224-cost-sensitive-ensemble)
+  - [2.3 Data resampling](#23-data-resampling)
+      - [2.3.1 *Over-sampling*](#231-over-sampling)
+      - [2.3.2 *Under-sampling*](#232-under-sampling)
+      - [2.3.3 *Hybrid-sampling*](#233-hybrid-sampling)
+  - [2.4 Cost-sensitive Learning](#24-cost-sensitive-learning)
+  - [2.5 Deep Learning](#25-deep-learning)
+      - [2.5.1 *Surveys*](#251-surveys)
+      - [2.5.2 *Graph Data Mining*](#252-graph-data-mining)
+      - [2.5.3 *Hard example mining*](#253-hard-example-mining)
+      - [2.5.4 *Loss function engineering*](#254-loss-function-engineering)
+      - [2.5.5 *Meta-learning*](#255-meta-learning)
+      - [2.5.6 *Representation Learning*](#256-representation-learning)
+      - [2.5.7 *Posterior Recalibration*](#257-posterior-recalibration)
+      - [2.5.8 *Semi/Self-supervised Learning*](#258-semiself-supervised-learning)
+      - [2.5.9 *Curriculum Learning*](#259-curriculum-learning)
+      - [2.5.10 *Two-phase Training*](#2510-two-phase-training)
+      - [2.5.11 *Network Architecture*](#2511-network-architecture)
+      - [2.5.12 *Deep Generative Model*](#2512-deep-generative-model)
+      - [2.5.13 *Imbalanced Regression*](#2513-imbalanced-regression)
+      - [2.5.14 *Data Augmentation*](#2514-data-augmentation)
+- [3. Miscellaneous](#3-miscellaneous)
+  - [3.1 Datasets](#31-datasets)
+  - [3.2 Github Repositories](#32-github-repositories)
+    - [3.2.1 *Algorithms \& Utilities \& Jupyter Notebooks*](#321-algorithms--utilities--jupyter-notebooks)
+    - [3.2.2 *Paper list*](#322-paper-list)
+    - [3.2.3 *Slides*](#323-slides)
 - [Contributors ✨](#contributors-)
 
 
-# Frameworks and Libraries
+# 1. Frameworks and Libraries
 
-### Python
+### 1.1 Python
 - [**imbalanced-ensemble**](https://imbalanced-ensemble.readthedocs.io/) [[**Github**](https://github.com/ZhiningLiu1998/imbalanced-ensemble)][[**Documentation**](https://imbalanced-ensemble.readthedocs.io/)][[**Gallery**](https://imbalanced-ensemble.readthedocs.io/en/latest/auto_examples/index.html#)][[**Paper**](https://arxiv.org/pdf/2111.12776.pdf)] 
   > **NOTE:** written in python, easy to use.
   - `imbalanced-ensemble` is a Python toolbox for quick implementing and deploying ***ensemble learning algorithms*** on class-imbalanced data. It is featured for: 
@@ -147,26 +149,26 @@
 
 - [**smote_variants**](https://smote-variants.readthedocs.io/en/latest/) [[**Documentation**](https://smote-variants.readthedocs.io/en/latest/)][[**Github**](https://github.com/analyticalmindsltd/smote_variants)] - A collection of 85 minority ***over-sampling*** techniques for imbalanced learning with multi-class oversampling and model selection features (All writen in Python, also support R and Julia).
 
-### R
+### 1.2 R
 - [**smote_variants**](https://smote-variants.readthedocs.io/en/latest/) [[**Documentation**](https://smote-variants.readthedocs.io/en/latest/)][[**Github**](https://github.com/analyticalmindsltd/smote_variants)] - A collection of 85 minority ***over-sampling*** techniques for imbalanced learning with multi-class oversampling and model selection features (All writen in Python, also support R and Julia).
 - [**caret**](https://cran.r-project.org/web/packages/caret/index.html) [[**Documentation**](http://topepo.github.io/caret/index.html)][[**Github**](https://github.com/topepo/caret)] - Contains the implementation of Random under/over-sampling.
 - [**ROSE**](https://cran.r-project.org/web/packages/ROSE/index.html) [[**Documentation**](https://www.rdocumentation.org/packages/ROSE/versions/0.0-3)] - Contains the implementation of [ROSE](https://journal.r-project.org/archive/2014-1/menardi-lunardon-torelli.pdf) (Random Over-Sampling Examples).
 - [**DMwR**](https://cran.r-project.org/web/packages/DMwR/index.html) [[**Documentation**](https://www.rdocumentation.org/packages/DMwR/versions/0.4.1)] - Contains the implementation of [SMOTE](https://arxiv.org/pdf/1106.1813.pdf) (Synthetic Minority Over-sampling TEchnique).
 
-### Java
+### 1.3 Java
 - [**KEEL**](https://sci2s.ugr.es/keel/description.php) [[**Github**](https://github.com/SCI2SUGR/KEEL)][[**Paper**](https://sci2s.ugr.es/sites/default/files/ficherosPublicaciones/0758_Alcalaetal-SoftComputing-Keel1.0.pdf)] - KEEL provides a simple ***GUI based*** on data flow to design experiments with different datasets and computational intelligence algorithms (***paying special attention to evolutionary algorithms***) in order to assess the behavior of the algorithms. This tool includes many widely used imbalanced learning techniques such as (evolutionary) over/under-resampling, cost-sensitive learning, algorithm modification, and ensemble learning methods. 
     
     > **NOTE:** wide variety of classical classification, regression, preprocessing algorithms included.
 
-### Scalar
+### 1.4 Scalar
 - [**undersampling**](https://github.com/NestorRV/undersampling) [[**Documentation**](https://nestorrv.github.io/)][[**Github**](https://github.com/NestorRV/undersampling)] - A Scala library for ***under-sampling and their ensemble variants*** in imbalanced classification.
 
-### Julia
+### 1.5 Julia
 - [**smote_variants**](https://smote-variants.readthedocs.io/en/latest/) [[**Documentation**](https://smote-variants.readthedocs.io/en/latest/)][[**Github**](https://github.com/analyticalmindsltd/smote_variants)] - A collection of 85 minority ***over-sampling*** techniques for imbalanced learning with multi-class oversampling and model selection features (All writen in Python, also support R and Julia).
 
-# Research Papers
+# 2. Research Papers
 
-## Surveys
+## 2.1 Surveys
 
 - **Learning from imbalanced data (IEEE TKDE, 2009, 6000+ citations) [[**Paper**](https://www.sci-hub.shop/10.1109/tkde.2008.239)]**
   - Highly cited, classic survey paper. It systematically reviewed the popular solutions, evaluation metrics, and challenging problems in future research in this area (as of 2009). 
@@ -177,9 +179,9 @@
 - **Learning from class-imbalanced data: Review of methods and applications (2017, 900+ citations) [[**Paper**](https://www.researchgate.net/publication/311977198_Learning_from_class-imbalanced_data_Review_of_methods_and_applications)]**
   - A recent exhaustive survey of imbalanced learning methods and applications, a total of 527 papers were included in this study. It provides several detailed taxonomies of existing methods and also the recent trend of this research area.
 
-## Ensemble Learning
+## 2.2 Ensemble Learning
 
-#### *General ensemble*
+#### 2.2.1 *General ensemble*
 <!-- - **General ensemble** -->
   
   - **Self-paced Ensemble (ICDE 2020, 20+ citations) [[**Paper**](https://arxiv.org/pdf/1909.03500v3.pdf)][[**Code**](https://github.com/ZhiningLiu1998/self-paced-ensemble)][[**Slides**](https://zhiningliu.com/files/ICDE_2020_self_paced_ensemble_slides.pdf)][[**Zhihu/知乎**](https://zhuanlan.zhihu.com/p/86891438)][[**PyPI**](https://pypi.org/project/self-paced-ensemble/)]**
@@ -194,7 +196,7 @@
     - BalanceCascade [[**Code**](https://github.com/ZhiningLiu1998/imbalanced-ensemble/blob/main/imbalanced_ensemble/ensemble/under_sampling/balance_cascade.py)]
   
 
-#### *Boosting-based*
+#### 2.2.2 *Boosting-based*
 <!-- - **Boosting-based** -->
 
   - **AdaBoost (1995, 18700+ citations) [[**Paper**](https://sci2s.ugr.es/keel/pdf/algorithm/articulo/1997-JCSS-Schapire-A%20Decision-Theoretic%20Generalization%20of%20On-Line%20Learning%20(AdaBoost).pdf)][[**Code**](https://github.com/scikit-learn/scikit-learn/blob/95d4f0841/sklearn/ensemble/_weight_boosting.py#L285)]** - Adaptive Boosting with C4.5
@@ -213,7 +215,7 @@
   
   - **EUSBoost (2013, 210+ citations) [[**Paper**](https://sci2s.ugr.es/keel/pdf/algorithm/articulo/2013-galar-PR.pdf)]** - Evolutionary Under-sampling in Boosting
 
-#### *Bagging-based*
+#### 2.2.3 *Bagging-based*
 <!-- - **Bagging-based** -->
 
   - **Bagging (1996, 20000+ citations) [[**Paper**](https://sci2s.ugr.es/keel/pdf/algorithm/articulo/1996-ML-Breiman-Bagging%20Predictors.pdf)][[**Code**](https://github.com/scikit-learn/scikit-learn/blob/95d4f0841/sklearn/ensemble/_bagging.py#L433)]** - Bagging predictor
@@ -223,7 +225,7 @@
     - **OverBagging** [[**Code**](https://github.com/ZhiningLiu1998/imbalanced-ensemble/blob/main/imbalanced_ensemble/ensemble/over_sampling/over_bagging.py)] 
     - **SMOTEBagging** [[**Code**](https://github.com/ZhiningLiu1998/imbalanced-ensemble/blob/main/imbalanced_ensemble/ensemble/over_sampling/smote_bagging.py)]
   
-#### *Cost-sensitive ensemble*
+#### 2.2.4 *Cost-sensitive ensemble*
 <!-- - **Cost-sensitive ensemble** -->
 
   - **AdaCost (ICML 1999, 800+ citations) [[**Paper**](https://www.researchgate.net/profile/Salvatore-Stolfo/publication/2628569_AdaCost_Misclassification_Cost-sensitive_Boosting/links/0fcfd50ca581d7016f000000/AdaCost-Misclassification-Cost-sensitive-Boosting.pdf)][[**Code**](https://github.com/ZhiningLiu1998/imbalanced-ensemble/blob/main/imbalanced_ensemble/ensemble/reweighting/adacost.py)]** - Misclassification Cost-sensitive boosting
@@ -232,9 +234,9 @@
   
   - **AsymBoost (NIPS 2001, 700+ citations) [[**Paper**](https://www.researchgate.net/profile/Michael-Jones-66/publication/2539888_Fast_and_Robust_Classification_using_Asymmetric_AdaBoost_and_a_Detector_Cascade/links/540731780cf23d9765a83ec1/Fast-and-Robust-Classification-using-Asymmetric-AdaBoost-and-a-Detector-Cascade.pdf)][[**Code**](https://github.com/ZhiningLiu1998/imbalanced-ensemble/blob/main/imbalanced_ensemble/ensemble/reweighting/asymmetric_boost.py)]** - Asymmetric AdaBoost and detector cascade
 
-## Data resampling
+## 2.3 Data resampling
 
-#### *Over-sampling*
+#### 2.3.1 *Over-sampling*
 <!-- - **Over-sampling** -->
 
   - **ROS [[**Code**](https://github.com/scikit-learn-contrib/imbalanced-learn/blob/master/imblearn/over_sampling/_random_over_sampler.py)]** - Random Over-sampling 
@@ -255,7 +257,7 @@
   
   > **NOTE:** See more over-sampling methods at [**smote-variants**](https://github.com/analyticalmindsltd/smote_variants#references).
 
-#### *Under-sampling*
+#### 2.3.2 *Under-sampling*
 <!-- - **Under-sampling** -->
 
   - **RUS [[**Code**](https://github.com/scikit-learn-contrib/imbalanced-learn/blob/master/imblearn/under_sampling/_prototype_selection/_random_under_sampler.py)]** - Random Under-sampling
@@ -278,7 +280,7 @@
   
   - **IHT (2014, 130+ citations) [[**Paper**](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.649.8727&rep=rep1&type=pdf)][[**Code**](https://github.com/scikit-learn-contrib/imbalanced-learn/blob/master/imblearn/under_sampling/_prototype_selection/_instance_hardness_threshold.py)]** - Instance Hardness Threshold 
 
-#### *Hybrid-sampling*
+#### 2.3.3 *Hybrid-sampling*
 <!-- - **Hybrid-sampling** -->
 
   - **A Study of the Behavior of Several Methods for Balancing Training Data (2004, 2000+ citations) [[**Paper**](https://www.researchgate.net/profile/Ronaldo-Prati/publication/220520041_A_Study_of_the_Behavior_of_Several_Methods_for_Balancing_machine_Learning_Training_Data/links/0d22cd91c989507054a2cf3b/A-Study-of-the-Behavior-of-Several-Methods-for-Balancing-machine-Learning-Training-Data.pdf)]**
@@ -290,7 +292,7 @@
   
   - **SMOTE-IPF (2015, 180+ citations) [[**Paper**](https://sci2s.ugr.es/sites/default/files/ficherosPublicaciones/1824_2015-INS-Saez.pdf)][[**Code**](https://smote-variants.readthedocs.io/en/latest/_modules/smote_variants/_smote_variants.html#SMOTE_IPF)]** - SMOTE with Iterative-Partitioning Filter
 
-## Cost-sensitive Learning
+## 2.4 Cost-sensitive Learning
 
 - **CSC4.5 (2002, 420+ citations) [[**Paper**](https://www.sci-hub.shop/10.1109/tkde.2002.1000348)][[**Code(Java)**](https://github.com/SCI2SUGR/KEEL/blob/master/src/keel/Algorithms/ImbalancedClassification/CSMethods/C45CS/C45CS.java#L48)]** - An instance-weighting method to induce cost-sensitive trees
 
@@ -298,9 +300,9 @@
 
 - **CSNN (2005, 950+ citations) [[**Paper**](https://sci2s.ugr.es/keel/pdf/algorithm/articulo/2006%20-%20IEEE_TKDE%20-%20Zhou_Liu.pdf)][[**Code(Java)**](https://github.com/SCI2SUGR/KEEL/blob/master/src/keel/Algorithms/ImbalancedClassification/CSMethods/MLPerceptronBackpropCS/MLPerceptronBackpropCS.java#L49)]** - Training cost-sensitive neural networks with methods addressing the class imbalance problem.
 
-## Deep Learning
+## 2.5 Deep Learning
 
-#### *Surveys*
+#### 2.5.1 *Surveys*
 <!-- - **Surveys** -->
   
   - A systematic study of the class imbalance problem in convolutional neural networks (2018, 330+ citations) [[**Paper**](https://arxiv.org/pdf/1710.05381.pdf)]
@@ -309,7 +311,7 @@
     
     > **NOTE:** a recent comprehensive survey of the class imbalance problem in deep learning.
 
-#### *Graph Data Mining*
+#### 2.5.2 *Graph Data Mining*
 <!-- - **Graph Neural Networks** -->
 
   - TAM: Topology-Aware Margin Loss for Class-Imbalanced Node Classification (ICML 2022) [[**Paper**](https://proceedings.mlr.press/v162/song22a/song22a.pdf)][[**Code**](https://github.com/Jaeyun-Song/TAM)]
@@ -319,12 +321,12 @@
   - LTE4G: Long-Tail Experts for Graph Neural Networks (CIKM 2022) [[**Paper**](https://arxiv.org/pdf/2208.10205.pdf)][[**Code**](https://github.com/SukwonYun/LTE4G)]
   - Multi-Class Imbalanced Graph Convolutional Network Learning (IJCAI 2020) [[**Paper**](https://par.nsf.gov/servlets/purl/10199469)]
 
-#### *Hard example mining*
+#### 2.5.3 *Hard example mining*
 <!-- - **Hard example mining** -->
   
   - Training region-based object detectors with online hard example mining (CVPR 2016, 840+ citations) [[**Paper**](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Shrivastava_Training_Region-Based_Object_CVPR_2016_paper.pdf)][[**Code**](https://github.com/abhi2610/ohemh)] - In the later phase of NN training, only do gradient back-propagation for "hard examples" (i.e., with large loss value)
 
-#### *Loss function engineering*
+#### 2.5.4 *Loss function engineering*
 <!-- - **Loss function engineering** -->
   
   - Focal loss for dense object detection (ICCV 2017, 2600+ citations) [[**Paper**](openaccess.thecvf.com/content_ICCV_2017/papers/Lin_Focal_Loss_for_ICCV_2017_paper.pdf)][[**Code (detectron2)**](https://github.com/facebookresearch/detectron2)][[**Code (unofficial)**](https://github.com/clcarwin/focal_loss_pytorch)] - A uniform loss function that focuses training on a sparse set of hard examples to prevents the vast number of easy negatives from overwhelming the detector during training. 
@@ -348,7 +350,7 @@
 
   - Label-Imbalanced and Group-Sensitive Classification under Overparameterization (NeurIPS 2021) [[**Paper**](https://proceedings.neurips.cc//paper/2021/file/9dfcf16f0adbc5e2a55ef02db36bac7f-Paper.pdf)][[**Code**](https://github.com/orparask/VS-Loss)]
 
-#### *Meta-learning*
+#### 2.5.5 *Meta-learning*
 <!-- - **Meta-learning** -->
 
   - Learning to model the tail (NIPS 2017, 70+ citations) [[**Paper**](papers.nips.cc/paper/7278-learning-to-model-the-tail.pdf)] - Transfer meta-knowledge from the data-rich classes in the head of the distribution to the data-poor classes in the tail.
@@ -366,7 +368,7 @@
   
     > **NOTE:** meta-learning-powered ensemble learning
 
-#### *Representation Learning*
+#### 2.5.6 *Representation Learning*
 <!-- - **Representation Learning** -->
 
   - Learning deep representation for imbalanced classification (CVPR 2016, 220+ citations) [[**Paper**](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Huang_Learning_Deep_Representation_CVPR_2016_paper.pdf)]
@@ -380,14 +382,14 @@
 
   - Tailoring Self-Supervision for Supervised Learning (ECCV 2022) [[**Paper**](https://arxiv.org/abs/2207.10023)][[**Code**](https://github.com/wjun0830/Localizable-Rotation)]
 
-#### *Posterior Recalibration*
+#### 2.5.7 *Posterior Recalibration*
 <!-- - **Posterior Recalibration** -->
   
   - Posterior Re-calibration for Imbalanced Datasets (NeurIPS 2020) [[**Paper**](https://arxiv.org/pdf/2010.11820.pdf)][[**Code**](https://github.com/GT-RIPL/UNO-IC)]
 
   - Long-tail learning via logit adjustment (ICLR 2021) [[**Paper**](https://arxiv.org/pdf/2007.07314v1.pdf)][[**Code**](https://github.com/google-research/google-research/tree/master/logit_adjustment)]
 
-#### *Semi/Self-supervised Learning*
+#### 2.5.8 *Semi/Self-supervised Learning*
 <!-- - **Semi/Self-supervised Learning** -->
 
   - Rethinking the Value of Labels for Improving Class-Imbalanced Learning (NeurIPS 2020) [[**Paper**](https://arxiv.org/pdf/2006.07529.pdf)][[**Code**](https://github.com/YyzHarry/imbalanced-semi-self)][[**Video**](https://www.youtube.com/watch?v=XltXZ3OZvyI&feature=youtu.be)]
@@ -402,52 +404,52 @@
 
   - DASO: Distribution-Aware Semantics-Oriented Pseudo-label for Imbalanced Semi-Supervised Learning (CVPR 2022) [[**Paper**](https://arxiv.org/pdf/2106.05682)][[**Code**](https://github.com/ytaek-oh/daso)]
 
-#### *Curriculum Learning*
+#### 2.5.9 *Curriculum Learning*
 <!-- - **Curriculum Learning** -->
 
   - Dynamic Curriculum Learning for Imbalanced Data Classification (ICCV 2019) [[**Paper**](openaccess.thecvf.com/content_ICCV_2019/papers/Wang_Dynamic_Curriculum_Learning_for_Imbalanced_Data_Classification_ICCV_2019_paper.pdf)]
 
-#### *Two-phase Training*
+#### 2.5.10 *Two-phase Training*
 <!-- - **Two-phase Training** -->
 
   - Brain tumor segmentation with deep neural networks (2017, 1200+ citations) [[**Paper**](https://arxiv.org/pdf/1505.03540.pdf)][[**Code (unofficial)**](https://github.com/naldeborgh7575/brain_segmentation)]
 
     > Pre-training on balanced dataset, fine-tuning the last output layer before softmax on the original, imbalanced data.
 
-#### *Network Architecture*
+#### 2.5.11 *Network Architecture*
 <!-- - **Network Architecture** -->
 
   - BBN: Bilateral-Branch Network with Cumulative Learning for Long-Tailed Visual Recognition (CVPR 2020) [[**Paper**](https://arxiv.org/pdf/1912.02413.pdf)][[**Code**](https://github.com/Megvii-Nanjing/BBN)]
   
   - Class-Imbalanced Deep Learning via a Class-Balanced Ensemble (TNNLS 2021) [[**Paper**](https://ieeexplore.ieee.org/abstract/document/9416240)]
 
-#### *Deep Generative Model*
+#### 2.5.12 *Deep Generative Model*
 <!-- - **Deep Generative Model** -->
   
   - Deep Generative Model for Robust Imbalance Classification (CVPR 2020) [[**Paper**](https://openaccess.thecvf.com/content_CVPR_2020/papers/Wang_Deep_Generative_Model_for_Robust_Imbalance_Classification_CVPR_2020_paper.pdf)]
 
-#### *Imbalanced Regression*
+#### 2.5.13 *Imbalanced Regression*
 <!-- - **Imbalanced Regression** -->
   
   - Delving into Deep Imbalanced Regression (ICML 2021) [[**Paper**](https://arxiv.org/pdf/2102.09554.pdf)][[**Code**](https://github.com/YyzHarry/imbalanced-regression)][[**Video**](https://www.youtube.com/watch?v=grJGixofQRU)]
   
   - Density-based weighting for imbalanced regression (Machine Learning [J], 2021) [[**Paper**](https://link.springer.com/article/10.1007/s10994-021-06023-5)][[**Code**](https://github.com/SteiMi/density-based-weighting-for-imbalanced-regression)] 
 
-#### *Augmentation*
+#### 2.5.14 *Data Augmentation*
 <!-- - **Augmentation** -->
 
   - Minority-Oriented Vicinity Expansion with Attentive Aggregation for Video Long-Tailed Recognition (AAAI 2023) [[**Paper**](https://arxiv.org/abs/2211.13471)][[**Code**](https://github.com/wjun0830/MOVE)]
 
 
-## Anomaly Detection
+<!-- ## 2.6 Anomaly Detection
 
-- **Surveys**
+#### 2.6.1 **Surveys**
 
   - Anomaly detection: A survey (ACM computing surveys, 2009, 9000+ citations) [[**Paper**](cinslab.com/wp-content/uploads/2019/03/xiaorong.pdf)]
   
   - A survey of network anomaly detection techniques (2017, 700+ citations) [[**Paper**](https://www.gta.ufrj.br/~alvarenga/files/CPE826/Ahmed2016-Survey.pdf)]
 
-- **Classification-based**
+#### 2.6.2 **Classification-based**
 
   - One-class SVMs for document classification (JMLR, 2001, 1300+ citations) [[**Paper**](www.jmlr.org/papers/volume2/manevitz01a/manevitz01a.pdf)]
   
@@ -457,54 +459,54 @@
   
   - Anomaly Detection using One-Class Neural Networks (2018, 200+ citations) [[**Paper**](https://arxiv.org/pdf/1802.06360.pdf)]
   
-  - Anomaly Detection with Robust Deep Autoencoders (KDD 2017, 170+ citations) [[**Paper**](https://pdfs.semanticscholar.org/c112/b06d3dac590b4cc111e5ec9c805d0b086c6e.pdf)]
+  - Anomaly Detection with Robust Deep Autoencoders (KDD 2017, 170+ citations) [[**Paper**](https://pdfs.semanticscholar.org/c112/b06d3dac590b4cc111e5ec9c805d0b086c6e.pdf)] -->
 
-# Miscellaneous
+# 3. Miscellaneous
 
-## Datasets
+## 3.1 Datasets
 
 - **`imbalanced-learn` datasets**
 
   > This collection of datasets is from [`imblearn.datasets.fetch_datasets`](https://imbalanced-learn.org/stable/references/generated/imblearn.datasets.fetch_datasets.html).
 
-  | ID | Name |	Repository & Target |	Ratio	| #S | #F |
-  -|-|-|-|-|-
-  | 1	| ecoli 			| UCI, target: imU 				| 8.6:1	| 336	| 7
-  | 2	| optical_digits 	| UCI, target: 8 				| 9.1:1	| 5,620	| 64
-  | 3	| satimage 			| UCI, target: 4 				| 9.3:1	| 6,435	| 36
-  | 4	| pen_digits		| UCI, target: 5 				| 9.4:1	| 10,992| 16
-  | 5	| abalone 			| UCI, target: 7 				| 9.7:1	| 4,177	| 10
-  | 6	| sick_euthyroid 	| UCI, target: sick euthyroid 	| 9.8:1	| 3,163	| 42
-  | 7	| spectrometer 		| UCI, target: > =44 			| 11:1	| 531	| 93
-  | 8	| car_eval_34 		| UCI, target: good, v good		| 12:1	| 1,728	| 21
-  | 9	| isolet 			| UCI, target: A, B 			| 12:1	| 7,797	| 617
-  | 10 |	us_crime	| UCI, target: >0.65			| 12:1 | 1,994 | 100
-  | 11 |	yeast_ml8	| LIBSVM, target: 8				| 13:1 | 2,417 | 103
-  | 12 |	scene		| LIBSVM, target: >one label	| 13:1 | 2,407 | 294
-  | 13 |	libras_move	| UCI, target: 1				| 14:1 | 360   | 90
-  | 14 |	thyroid_sick| UCI, target: sick				| 15:1 | 3,772 | 52
-  | 15 |	coil_2000	| KDD, CoIL, target: minority 	| 16:1 | 9,822 | 85
-  | 16 | arrhythmia		| UCI, target: 06		 | 17:1 | 452	| 278
-  | 17 | solar_flare_m0	| UCI, target: M->0		 | 19:1 | 1,389	| 32
-  | 18 | oil				| UCI, target: minority	 | 22:1 | 937	| 49
-  | 19 | car_eval_4		| UCI, target: vgood	 | 26:1 | 1,728	| 21
-  | 20 | wine_quality		| UCI, wine, target: <=4 | 26:1 | 4,898	| 11
-  | 21 | letter_img		| UCI, target: Z		 | 26:1 | 20,000| 16
-  | 22 | yeast_me2		| UCI, target: ME2		 | 28:1 | 1,484	| 8
-  | 23 | webpage			| LIBSVM, w7a, target: minority	 | 33:1 | 34,780| 300
-  | 24 | ozone_level		| UCI, ozone, data		 | 34:1 | 2,536	| 72
-  | 25 | mammography		| UCI, target: minority	 | 42:1 | 11,183	| 6
-  | 26 | protein_homo		| KDD CUP 2004, minority | 111:1 | 145,751	| 74
-  | 27 | abalone_19		| UCI, target: 19		 | 130:1 | 4,177	| 10
+  | ID  | Name           | Repository & Target           | Ratio | #S      | #F  |
+  | --- | -------------- | ----------------------------- | ----- | ------- | --- |
+  | 1   | ecoli          | UCI, target: imU              | 8.6:1 | 336     | 7   |
+  | 2   | optical_digits | UCI, target: 8                | 9.1:1 | 5,620   | 64  |
+  | 3   | satimage       | UCI, target: 4                | 9.3:1 | 6,435   | 36  |
+  | 4   | pen_digits     | UCI, target: 5                | 9.4:1 | 10,992  | 16  |
+  | 5   | abalone        | UCI, target: 7                | 9.7:1 | 4,177   | 10  |
+  | 6   | sick_euthyroid | UCI, target: sick euthyroid   | 9.8:1 | 3,163   | 42  |
+  | 7   | spectrometer   | UCI, target: > =44            | 11:1  | 531     | 93  |
+  | 8   | car_eval_34    | UCI, target: good, v good     | 12:1  | 1,728   | 21  |
+  | 9   | isolet         | UCI, target: A, B             | 12:1  | 7,797   | 617 |
+  | 10  | us_crime       | UCI, target: >0.65            | 12:1  | 1,994   | 100 |
+  | 11  | yeast_ml8      | LIBSVM, target: 8             | 13:1  | 2,417   | 103 |
+  | 12  | scene          | LIBSVM, target: >one label    | 13:1  | 2,407   | 294 |
+  | 13  | libras_move    | UCI, target: 1                | 14:1  | 360     | 90  |
+  | 14  | thyroid_sick   | UCI, target: sick             | 15:1  | 3,772   | 52  |
+  | 15  | coil_2000      | KDD, CoIL, target: minority   | 16:1  | 9,822   | 85  |
+  | 16  | arrhythmia     | UCI, target: 06               | 17:1  | 452     | 278 |
+  | 17  | solar_flare_m0 | UCI, target: M->0             | 19:1  | 1,389   | 32  |
+  | 18  | oil            | UCI, target: minority         | 22:1  | 937     | 49  |
+  | 19  | car_eval_4     | UCI, target: vgood            | 26:1  | 1,728   | 21  |
+  | 20  | wine_quality   | UCI, wine, target: <=4        | 26:1  | 4,898   | 11  |
+  | 21  | letter_img     | UCI, target: Z                | 26:1  | 20,000  | 16  |
+  | 22  | yeast_me2      | UCI, target: ME2              | 28:1  | 1,484   | 8   |
+  | 23  | webpage        | LIBSVM, w7a, target: minority | 33:1  | 34,780  | 300 |
+  | 24  | ozone_level    | UCI, ozone, data              | 34:1  | 2,536   | 72  |
+  | 25  | mammography    | UCI, target: minority         | 42:1  | 11,183  | 6   |
+  | 26  | protein_homo   | KDD CUP 2004, minority        | 111:1 | 145,751 | 74  |
+  | 27  | abalone_19     | UCI, target: 19               | 130:1 | 4,177   | 10  |
 
 - **Imbalanced Databases**
 
   Link: https://github.com/gykovacs/mldb
 
 
-## Github Repositories
+## 3.2 Github Repositories
 
-### *Algorithms & Utilities & Jupyter Notebooks*
+### 3.2.1 *Algorithms & Utilities & Jupyter Notebooks*
 
   - [imbalanced-algorithms](https://github.com/dialnd/imbalanced-algorithms) - Python-based implementations of algorithms for learning on imbalanced data.
   
@@ -515,13 +517,13 @@
   - [Multi-class-with-imbalanced-dataset-classification](https://github.com/javaidnabi31/Multi-class-with-imbalanced-dataset-classification) - Perform multi-class classification on imbalanced 20-news-group dataset.
   - [Advanced Machine Learning with scikit-learn: Imbalanced classification and text data](https://github.com/amueller/ml-workshop-4-of-4) - Different approaches to feature selection, and resampling methods for imbalanced data.
 
-### *Paper list*
+### 3.2.2 *Paper list*
 
   - [Anomaly Detection Learning Resources](https://github.com/yzhao062/anomaly-detection-resources) by [yzhao062](https://github.com/yzhao062) - Anomaly detection related books, papers, videos, and toolboxes.
 
   - [Paper-list-on-Imbalanced-Time-series-Classification-with-Deep-Learning](https://github.com/danielgy/Paper-list-on-Imbalanced-Time-series-Classification-with-Deep-Learning) - Imbalanced Time-series Classification
 
-### *Slides*
+### 3.2.3 *Slides*
 
   - [acm_imbalanced_learning](https://github.com/timgasser/acm_imbalanced_learning) - slides and code for the ACM Imbalanced Learning talk on 27th April 2016 in Austin, TX.
 
