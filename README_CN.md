@@ -321,6 +321,7 @@
   - Topology-Imbalance Learning for Semi-Supervised Node Classification (NeurIPS 2021) [[**Paper**](https://proceedings.neurips.cc//paper/2021/file/fa7cdfad1a5aaf8370ebeda47a1ff1c3-Paper.pdf)][[**Code**](https://github.com/victorchen96/renode)]
   - GraphENS: Neighbor-Aware Ego Network Synthesis for Class-Imbalanced Node Classification (ICLR 2022) [[**Paper**](https://openreview.net/pdf?id=MXEl7i-iru)][[**Code**](https://github.com/JoonHyung-Park/GraphENS)]
   - LTE4G: Long-Tail Experts for Graph Neural Networks (CIKM 2022) [[**Paper**](https://arxiv.org/pdf/2208.10205.pdf)][[**Code**](https://github.com/SukwonYun/LTE4G)]
+  - Semi-Supervised Graph Imbalanced Regression (KDD 2023) [[**Paper**](https://arxiv.org/abs/2305.12087)] [[**Code**](https://github.com/liugangcode/SGIR)]
 
 #### 难例挖掘 | *Hard example mining*
 <!-- - **Hard example mining** -->
@@ -429,6 +430,12 @@
 
 #### 不平衡回归 | *Imbalanced Regression*
 <!-- - **Imbalanced Regression** -->
+  
+  - Semi-Supervised Graph Imbalanced Regression (KDD 2023) [[**Paper**](https://arxiv.org/abs/2305.12087)] [[**Code**](https://github.com/liugangcode/SGIR)]
+  
+  - RankSim: Ranking Similarity Regularization for Deep Imbalanced Regression (ICML 2022) [[**Paper**](https://arxiv.org/abs/2205.15236)] [[**Code**](https://github.com/BorealisAI/ranksim-imbalanced-regression)]
+  
+  - Balanced MSE for Imbalanced Visual Regression (CVPR 2022) [[**Paper**](https://arxiv.org/abs/2203.16427)] [[**Code**](https://github.com/jiawei-ren/BalancedMSE)]
   
   - Delving into Deep Imbalanced Regression (ICML 2021) [[**Paper**](https://arxiv.org/pdf/2102.09554.pdf)][[**Code**](https://github.com/YyzHarry/imbalanced-regression)][[**Video**](https://www.youtube.com/watch?v=grJGixofQRU)]
   
