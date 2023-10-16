@@ -329,16 +329,16 @@
 
 <!-- - **Loss function engineering** -->
 
-- Focal loss for dense object detection (ICCV 2017, 2600+ citations) [[**Paper**](openaccess.thecvf.com/content_ICCV_2017/papers/Lin_Focal_Loss_for_ICCV_2017_paper.pdf)][[**Code (detectron2)**](https://github.com/facebookresearch/detectron2)][[**Code (unofficial)**](https://github.com/clcarwin/focal_loss_pytorch)] - A uniform loss function that focuses training on a sparse set of hard examples to prevents the vast number of easy negatives from overwhelming the detector during training.
+- Focal loss for dense object detection (ICCV 2017, 2600+ citations) [[**Paper**](https://openaccess.thecvf.com/content_ICCV_2017/papers/Lin_Focal_Loss_for_ICCV_2017_paper.pdf)][[**Code (detectron2)**](https://github.com/facebookresearch/detectron2)][[**Code (unofficial)**](https://github.com/clcarwin/focal_loss_pytorch)] - A uniform loss function that focuses training on a sparse set of hard examples to prevents the vast number of easy negatives from overwhelming the detector during training.
 
   > **NOTE:** elegant solution, high influence.
   >
 - Training deep neural networks on imbalanced data sets (IJCNN 2016, 110+ citations) [[**Paper**](https://www.researchgate.net/publication/309778930_Training_deep_neural_networks_on_imbalanced_data_sets)] - Mean (square) false error that can equally capture classification errors from both the majority class and the minority class.
-- Deep imbalanced attribute classification using visual attention aggregation (ECCV 2018, 30+ citation) [[**Paper**](openaccess.thecvf.com/content_ECCV_2018/papers/Nikolaos_Sarafianos_Deep_Imbalanced_Attribute_ECCV_2018_paper.pdf)][[**Code**](https://github.com/cvcode18/imbalanced_learning)]
+- Deep imbalanced attribute classification using visual attention aggregation (ECCV 2018, 30+ citation) [[**Paper**](https://openaccess.thecvf.com/content_ECCV_2018/papers/Nikolaos_Sarafianos_Deep_Imbalanced_Attribute_ECCV_2018_paper.pdf)][[**Code**](https://github.com/cvcode18/imbalanced_learning)]
 - Imbalanced deep learning by minority class incremental rectification (TPAMI 2018, 60+ citations) [[**Paper**](https://arxiv.org/pdf/1804.10851.pdf)] - Class Rectification Loss for minimizing the dominant effect of majority classes by discovering sparsely sampled boundaries of minority classes in an iterative batch-wise learning process.
 - Learning Imbalanced Datasets with Label-Distribution-Aware Margin Loss (NIPS 2019, 10+ citations) [[**Paper**](https://papers.nips.cc/paper/8435-learning-imbalanced-datasets-with-label-distribution-aware-margin-loss.pdf)][[**Code**](https://github.com/kaidic/LDAM-DRW)]  - A theoretically-principled label-distribution-aware margin (LDAM) loss motivated by minimizing a margin-based generalization bound.
 - Gradient harmonized single-stage detector (AAAI 2019, 40+ citations) [[**Paper**](https://arxiv.org/pdf/1811.05181.pdf)][[**Code**](https://github.com/libuyu/GHM_Detection)] - Compared to Focal Loss, which only down-weights "easy" negative examples, GHM also down-weights "very hard" examples as they are likely to be outliers.
-- Class-Balanced Loss Based on Effective Number of Samples (CVPR 2019, 70+ citations) [[**Paper**](openaccess.thecvf.com/content_CVPR_2019/papers/Cui_Class-Balanced_Loss_Based_on_Effective_Number_of_Samples_CVPR_2019_paper.pdf)][[**Code**](https://github.com/richardaecn/class-balanced-loss)] - a simple and generic class-reweighting mechanism based on Effective Number of Samples.
+- Class-Balanced Loss Based on Effective Number of Samples (CVPR 2019, 70+ citations) [[**Paper**](https://openaccess.thecvf.com/content_CVPR_2019/papers/Cui_Class-Balanced_Loss_Based_on_Effective_Number_of_Samples_CVPR_2019_paper.pdf)][[**Code**](https://github.com/richardaecn/class-balanced-loss)] - a simple and generic class-reweighting mechanism based on Effective Number of Samples.
 - Influence-Balanced Loss for Imbalanced Visual Classification (ICCV 2021) [[**Paper**](https://arxiv.org/pdf/2110.02444.pdf)][[**Code**](https://github.com/pseulki/IB-Loss)]
 - AutoBalance: Optimized Loss Functions for Imbalanced Data (NeurIPS 2021) [[**Paper**](https://openreview.net/pdf?id=ebQXflQre5a)]
 - Label-Imbalanced and Group-Sensitive Classification under Overparameterization (NeurIPS 2021) [[**Paper**](https://proceedings.neurips.cc//paper/2021/file/9dfcf16f0adbc5e2a55ef02db36bac7f-Paper.pdf)][[**Code**](https://github.com/orparask/VS-Loss)]
@@ -348,12 +348,12 @@
 <!-- - **Meta-learning** -->
 
 - Learning to model the tail (NIPS 2017, 70+ citations) [[**Paper**](papers.nips.cc/paper/7278-learning-to-model-the-tail.pdf)] - Transfer meta-knowledge from the data-rich classes in the head of the distribution to the data-poor classes in the tail.
-- Learning to reweight examples for robust deep learning (ICML 2018, 150+ citations) [[**Paper**](proceedings.mlr.press/v80/ren18a/ren18a.pdf)][[**Code**](https://github.com/uber-research/learning-to-reweight-examples)] - Implicitly learn a weight function to reweight the samples in gradient updates of DNN.
+- Learning to reweight examples for robust deep learning (ICML 2018, 150+ citations) [[**Paper**](https://proceedings.mlr.press/v80/ren18a/ren18a.pdf)][[**Code**](https://github.com/uber-research/learning-to-reweight-examples)] - Implicitly learn a weight function to reweight the samples in gradient updates of DNN.
 
   > **NOTE:** representative work to solve the class imbalance problem through meta-learning.
   >
 - Meta-weight-net: Learning an explicit mapping for sample weighting (NIPS 2019) [[**Paper**](https://papers.nips.cc/paper/8467-meta-weight-net-learning-an-explicit-mapping-for-sample-weighting.pdf)][[**Code**](https://github.com/xjtushujun/meta-weight-net)] - Explicitly learn a weight function (with an MLP as the function approximator) to reweight the samples in gradient updates of DNN.
-- Learning Data Manipulation for Augmentation and Weighting (NIPS 2019) [[**Paper**](https://www.cs.cmu.edu/~zhitingh/data/neurips19_data_manip_preprint.pdf)][[**Code**](https://github.com/tanyuqian/learning-data-manipulation)]
+- Learning Data Manipulation for Augmentation and Weighting (NIPS 2019) [[**Paper**](https://proceedings.neurips.cc/paper/2019/file/671f0311e2754fcdd37f70a8550379bc-Paper.pdf)][[**Code**](https://github.com/tanyuqian/learning-data-manipulation)]
 - Learning to Balance: Bayesian Meta-Learning for Imbalanced and Out-of-distribution Tasks (ICLR 2020) [[**Paper**](https://openreview.net/attachment?id=rkeZIJBYvr&name=original_pdf)][[**Code**](https://github.com/haebeom-lee/l2b)]
 - MESA: Boost Ensemble Imbalanced Learning with MEta-SAmpler (NeurIPS 2020) [[**Paper**](https://arxiv.org/pdf/2010.08830.pdf)][[**Code**](https://github.com/ZhiningLiu1998/mesa)][[**Video**](https://studio.slideslive.com/web_recorder/share/20201020T134559Z__NeurIPS_posters__17343__mesa-effective-ensemble-imbal?s=d3745afc-cfcf-4d60-9f34-63d3d811b55f)]
 
@@ -397,7 +397,7 @@
 
 <!-- - **Curriculum Learning** -->
 
-- Dynamic Curriculum Learning for Imbalanced Data Classification (ICCV 2019) [[**Paper**](openaccess.thecvf.com/content_ICCV_2019/papers/Wang_Dynamic_Curriculum_Learning_for_Imbalanced_Data_Classification_ICCV_2019_paper.pdf)]
+- Dynamic Curriculum Learning for Imbalanced Data Classification (ICCV 2019) [[**Paper**](https://openaccess.thecvf.com/content_ICCV_2019/papers/Wang_Dynamic_Curriculum_Learning_for_Imbalanced_Data_Classification_ICCV_2019_paper.pdf)]
 
 #### 2.5.10 *Two-phase Training*
 
