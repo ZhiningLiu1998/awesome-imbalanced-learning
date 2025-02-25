@@ -211,6 +211,14 @@
   - EasyEnsemble [[**Code**](https://github.com/ZhiningLiu1998/imbalanced-ensemble/blob/main/imbalanced_ensemble/ensemble/under_sampling/easy_ensemble.py)]
   - BalanceCascade [[**Code**](https://github.com/ZhiningLiu1998/imbalanced-ensemble/blob/main/imbalanced_ensemble/ensemble/under_sampling/balance_cascade.py)]
 
+- **The Effects of Ensembling on Long-Tailed Data (Neurips 2023 Heavy Tails Workshop) [[**Paper**](https://openreview.net/pdf?id=l4GYs60kre)]**
+
+  > **NOTE:** 
+  > Adding more (>10) ensemble members continues to improve performance on imbalanced datasets.
+  > There are differences between logit and probability ensembling on imbalanced datasets depending on the ensemble diversity and dependency. 
+
+  - Logit vs. Probability Ensembles [[**Code**](https://github.com/ekellbuch/longtail_ensembles)]
+
 #### 2.2.2 *Boosting-based*
 
 <!-- - **Boosting-based** -->
