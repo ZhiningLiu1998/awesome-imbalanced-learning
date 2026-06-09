@@ -527,6 +527,7 @@
 ### 3.2.3 *Slides*
 
 - [acm_imbalanced_learning](https://github.com/timgasser/acm_imbalanced_learning) - slides and code for the ACM Imbalanced Learning talk on 27th April 2016 in Austin, TX.
+- [TutorialSearch](https://tutorialsearch.io/?q=imbalanced) - Free cross-platform search engine indexing 50,000+ tutorials from Udemy, Skillshare, Pluralsight, and other major learning platforms across 45+ categories.
 
 # Contributors ✨
 
