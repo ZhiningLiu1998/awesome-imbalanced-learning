@@ -302,6 +302,8 @@
 - **CSC4.5 (2002, 420+ citations) [[**Paper**](https://www.sci-hub.shop/10.1109/tkde.2002.1000348)][[**Code(Java)**](https://github.com/SCI2SUGR/KEEL/blob/master/src/keel/Algorithms/ImbalancedClassification/CSMethods/C45CS/C45CS.java#L48)]** - An instance-weighting method to induce cost-sensitive trees
 - **CSSVM (2008, 710+ citations) [[**Paper**](https://sci2s.ugr.es/keel/pdf/algorithm/articulo/2009-Chawla-IEEE_TSMCB-svm-imbalance.pdf)][[**Code(Java)**](https://github.com/SCI2SUGR/KEEL/blob/master/src/keel/Algorithms/ImbalancedClassification/CSMethods/C_SVMCost/svmClassifierCost.java#L60)]** - Cost-sensitive SVMs for highly imbalanced classification
 - **CSNN (2005, 950+ citations) [[**Paper**](https://sci2s.ugr.es/keel/pdf/algorithm/articulo/2006%20-%20IEEE_TKDE%20-%20Zhou_Liu.pdf)][[**Code(Java)**](https://github.com/SCI2SUGR/KEEL/blob/master/src/keel/Algorithms/ImbalancedClassification/CSMethods/MLPerceptronBackpropCS/MLPerceptronBackpropCS.java#L49)]** - Training cost-sensitive neural networks with methods addressing the class imbalance problem.
+- **Bayesian weighted-likelihood (2026)
+[[**Paper**](https://www.sciencedirect.com/science/article/abs/pii/S2468111326000010)][[**Preprint**](https://arxiv.org/pdf/2504.17013v1)][[**Code**(R/Python/Julia)](https://github.com/stanlazic/weighted_likelihoods)]** - Cost-sensitive Bayesian GLMs with a weighted likelihood (also known as power-prior, generalized Bayes, Gibbs posterior).
 
 ## 2.5 Deep Learning
 
